@@ -1,0 +1,246 @@
+{
+  "hero_headline": "工业富联遭337调查，金价与加密资产同步走弱",
+  "daily_overview": "工业富联报48.85元、日内涨1.96%，但公告确认美国国际贸易委员会对其及控股子公司启动337调查，供应链合规风险待跟踪；AI数据中心投资仍是中期主线。现货黄金报3996.9美元，日内跌1.56%、五日累计跌4.4%，油价走高，英国9月CPI升至3.5%，令通胀与利率路径更受关注，美联储贴现率会议纪要提供政策线索。加密方面，BTC报80618.25美元跌0.56%，ETH报2357.72美元跌1.11%，SOL报102.17美元跌0.59%，SEC公布2027财年检查重点，监管规范仍是中期变量；时政面暂无直接冲击这三类资产的事件。",
+  "tech_briefs": [],
+  "finance_briefs": [
+    {
+      "title": "工业富联及子公司遭美国ITC 337调查",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202610111830333618.html",
+      "source": "工业富联公告（交易所披露）",
+      "summary": "公司10月12日公告，美国国际贸易委员会已对其及控股子公司启动337调查；公告未披露涉案产品与主张细节，后续应诉进展可能影响对美出货节奏。",
+      "importance": 8
+    },
+    {
+      "title": "SEC公布2027财年检查重点",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
+      "source": "美国证监会 SEC（官方）",
+      "summary": "美国证监会公布2027财年检查重点报告，列出新财年监管检查的重点领域，涉及市场机构与新兴业务合规要求，SEC检查口径变化值得持续跟踪。",
+      "importance": 6
+    },
+    {
+      "title": "美联储公布贴现率会议纪要",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+      "source": "美联储（官方）",
+      "summary": "美联储公布8月17日、9月9日与9月16日贴现率会议纪要，记录各联储银行的贴现率讨论，是观察政策利率路径的辅助材料，对金价与美元定价有参考意义。",
+      "importance": 5
+    },
+    {
+      "title": "英国9月CPI升至3.5%，创年内高位",
+      "url": "https://www.bbc.co.uk/news/articles/c6gel2xv4493o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "英国国家统计局数据显示，截至9月的一年CPI同比涨幅由3.1%升至3.5%，政府借款同步走高，通胀黏性对利率预期与实际利率构成扰动。",
+      "importance": 5
+    },
+    {
+      "title": "油价持续高位引通胀担忧",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-24/persistent-oil-prices-threaten-inflation-outlook-video",
+      "source": "Bloomberg Markets",
+      "summary": "彭博节目讨论油价持续高位对通胀前景的威胁；受访策略师同时认为，企业盈利与估值表明AI相关股票并未处于泡沫区间。",
+      "importance": 4
+    }
+  ],
+  "politics_briefs": [],
+  "editor_note": "工业富联337调查属程序性披露，短期看情绪、中期看应诉；黄金与加密同跌说明流动性预期主导，单一消息不宜过度解读。",
+  "keywords": [
+    "工业富联",
+    "337调查",
+    "现货黄金",
+    "比特币",
+    "以太坊",
+    "美联储",
+    "SEC监管"
+  ],
+  "trading": {
+    "daily_view": "整体偏弱：工业富联空头排列，黄金逼近52周低点，加密总市值24小时-2.73%。关键矛盾在于超跌反弹与均线压制并存，需验证RSI回升及能否收复SMA20。",
+    "action_assessment": {
+      "dip_buying": "仅小仓试探",
+      "selling": "部分减仓",
+      "summary": "空仓者不宜重仓抄底：工业富联空头排列且SMA50下穿SMA200死叉，需先收复SMA20 54.58、RSI回到40上方再谈分批；黄金RSI 30.7近超卖但MACD死叉未修复，只可小仓试探并以52周低失守为失效条件；BTC守SMA200 72899.98、RSI 43.6相对最稳，ETH、SOL已失守SMA20/50更弱。已有仓位者建议部分减仓，优先压缩工业富联与黄金敞口，加密留底仓；若BTC跌破SMA200或ETH跌破2156.62，则转为优先控制风险。"
+    },
+    "market_overview": "当日三条主线均偏弱。工业富联报48.85，单日+1.96%、5日+2.24%，但价格仍低于SMA20(54.58)、SMA50(60.19)、SMA200(61.60)，呈空头排列且SMA50下穿SMA200形成死叉，距52周高-42.5%，RSI 32.9、MACD -3.8041低于信号-3.412，绿柱仍存，反弹更像下跌中继式修复。国际现货黄金报3996.9，单日-1.56%、5日-4.41%，MACD -63.63低于信号-57.31维持死叉，RSI 30.7逼近超卖，距52周高-28.45%并贴近52周低，趋势与动量同向偏空。加密方面，总市值2.72万亿美元、24小时-2.73%，BTC主导率59.5%、ETH 10.6%，恐惧贪婪指数54处中性，未见恐慌性抛售。BTC 80618.25跌破SMA20(82535.37)与SMA50(81797.27)，但仍守SMA200(72899.98)，RSI 43.6；ETH 2357.72、RSI 36.5、MACD -51.10低于信号-41.14；SOL 102.17、RSI 37.4、MACD -2.3198低于信号-1.6905，两者均在SMA20/50下方、SMA200上方。资讯面上，劳登县对数据中心扩建设限、油价高企压制通胀预期，对AI硬件链与黄金均构成扰动；阿根廷撤销米莱加密欺诈调查对情绪影响有限。",
+    "watchlist": [
+      {
+        "symbol": "601138.SS",
+        "display_name": "工业富联(601138)",
+        "stance": "偏下行",
+        "rationale": "现价48.85，单日+1.96%、5日+2.24%，但仍低于SMA20 54.58、SMA50 60.19与SMA200 61.60，空头排列明确，SMA50已下穿SMA200形成死叉；RSI 32.9处偏弱区未进入超卖，MACD -3.8041低于信号-3.412，绿柱未收，动量未转；距52周高-42.5%，仅较52周低高7.24%，反弹属弱势修复。"
+      },
+      {
+        "symbol": "XAU-SPOT",
+        "display_name": "国际现货黄金(XAU)",
+        "stance": "偏下行",
+        "rationale": "现价3996.9，单日-1.56%、5日-4.41%，已跌破SMA20 4155.26、SMA50 4341.87与SMA200 4532.90，均线空头排列；RSI 30.7逼近超卖但未拐头，MACD -63.6345低于信号-57.3076，维持死叉与绿柱；距52周高-28.45%且贴近52周低，趋势与动量同向偏空。"
+      },
+      {
+        "symbol": "BTC-USD",
+        "display_name": "比特币(BTC)",
+        "stance": "中性",
+        "rationale": "现价80618.25，单日-0.56%、5日-1.51%，位于SMA20 82535.37与SMA50 81797.27下方，但仍高于SMA200 72899.98；RSI 43.6处中性区间，MACD -193.951与信号104.915形成约-298.9的负柱，动量偏弱，但未出现信号标记，属均线纠缠下的震荡结构而非趋势加速。"
+      },
+      {
+        "symbol": "ETH-USD",
+        "display_name": "以太坊(ETH)",
+        "stance": "偏下行",
+        "rationale": "现价2357.72，单日-1.11%、5日-1.96%，低于SMA20 2472.83与SMA50 2546.45，仅高于SMA200 2156.62；RSI 36.5偏弱未超卖，MACD -51.0982低于信号-41.1398，绿柱扩大至约-9.96，距52周高-44.53%，结构在三者中最弱。"
+      },
+      {
+        "symbol": "SOL-USD",
+        "display_name": "索拉纳(SOL)",
+        "stance": "中性",
+        "rationale": "现价102.17，单日-0.59%、5日-2.63%，跌破SMA20 107.88与SMA50 109.63，但仍在SMA200 88.27上方；RSI 37.4偏弱未超卖，MACD -2.3198低于信号-1.6905，绿柱小幅走扩至约-0.63，距52周高-50.17%，属弱势震荡而非单边加速。"
+      }
+    ],
+    "risk_caveat": "本报告仅依据公开行情与技术指标，仅供技术指标解读参考，不构成投资建议；过去走势不代表未来表现，指标存在滞后与失效可能，请结合自身风险承受能力独立决策。",
+    "tickers": [
+      {
+        "symbol": "601138.SS",
+        "displayName": "工业富联",
+        "group": "china-equity",
+        "currency": "CNY",
+        "exchangeName": "SHH",
+        "currentPrice": 48.85,
+        "pct1Day": 1.9620124307695375,
+        "pct5Day": 2.2394333362075325,
+        "pct52WeekHigh": -42.49558563861095,
+        "pct52WeekLow": 7.2447859495060465,
+        "sma20": 54.582499504089355,
+        "sma50": 60.18539993286133,
+        "sma200": 61.60055009841919,
+        "rsi14": 32.91701148215101,
+        "macd": -3.804129593522653,
+        "macdSignal": -3.4119882494684894,
+        "macdHistogram": -0.39214134405416345,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "death-cross",
+            "label": "死叉(SMA50↓SMA200)",
+            "daysAgo": 8
+          },
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "XAU-SPOT",
+        "displayName": "国际现货黄金",
+        "group": "commodity-fx",
+        "currency": "USD",
+        "exchangeName": "SPOT",
+        "currentPrice": 3996.899902,
+        "pct1Day": -1.5638853775731876,
+        "pct5Day": -4.4055437888106255,
+        "pct52WeekHigh": -28.45046897712219,
+        "pct52WeekLow": 2.450462717555685,
+        "sma20": 4155.264990234375,
+        "sma50": 4341.8659765625,
+        "sma200": 4532.898499755859,
+        "rsi14": 30.717600224618167,
+        "macd": -63.63450229067075,
+        "macdSignal": -57.30755276799493,
+        "macdHistogram": -6.326949522675825,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 1
+          },
+          {
+            "type": "near-52w-low",
+            "label": "接近 52 周低"
+          },
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "displayName": "Bitcoin",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 80618.25,
+        "pct1Day": -0.5623707298947646,
+        "pct5Day": -1.5091455747035984,
+        "pct52WeekHigh": -30.664870553698005,
+        "pct52WeekLow": 39.60410174135567,
+        "sma20": 82535.3734375,
+        "sma50": 81797.26859375,
+        "sma200": 72899.977109375,
+        "rsi14": 43.62829343133553,
+        "macd": -193.95102556336496,
+        "macdSignal": 104.91496042092275,
+        "macdHistogram": -298.8659859842877,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "ETH-USD",
+        "displayName": "Ethereum",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 2357.72,
+        "pct1Day": -1.1055594361231074,
+        "pct5Day": -1.95837026603628,
+        "pct52WeekHigh": -44.532979506760114,
+        "pct52WeekLow": 56.50256085987593,
+        "sma20": 2472.8264892578127,
+        "sma50": 2546.4537158203125,
+        "sma200": 2156.624351196289,
+        "rsi14": 36.498556420538634,
+        "macd": -51.09816001505669,
+        "macdSignal": -41.13979301435508,
+        "macdHistogram": -9.958367000701614,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "SOL-USD",
+        "displayName": "Solana",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 102.17,
+        "pct1Day": -0.593366678637561,
+        "pct5Day": -2.62682777024845,
+        "pct52WeekHigh": -50.16584963275543,
+        "pct52WeekLow": 69.1144145003072,
+        "sma20": 107.8788963317871,
+        "sma50": 109.62631240844726,
+        "sma200": 88.26808834075928,
+        "rsi14": 37.3925234934886,
+        "macd": -2.319787966899824,
+        "macdSignal": -1.6904889518792183,
+        "macdHistogram": -0.6292990150206057,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      }
+    ],
+    "crypto_fear_greed": {
+      "value": 54,
+      "classification": "Neutral",
+      "classificationCn": "中性",
+      "timestamp": "2026-10-25T00:00:00.000Z"
+    },
+    "crypto_global": {
+      "totalMarketCapUsd": 2722883942402.6055,
+      "total24hVolumeUsd": 55938822590.16162,
+      "marketCapChangePct24h": -2.73411022934019,
+      "btcDominance": 59.45094719950384,
+      "ethDominance": 10.567475320475099,
+      "activeCryptocurrencies": 22487
+    },
+    "generated_at": "2026-10-25T05:34:22.381Z"
+  }
+}
