@@ -1,0 +1,182 @@
+{
+  "hero_headline": "币安遭63亿美元盗币，加密与黄金同步走弱",
+  "daily_overview": "工业富联三季报与董事会决议同步披露，A股收45.87元、日内涨1.44%，五日仍累跌6.10%，AI服务器订单与产能细节待正文确认。黄金因通胀升温与科技股抛售回落至每盎司4000美元附近，实际利率与美元构成压力。加密市场同步走弱：BTC报78558美元跌3.33%，ETH报2245美元跌4.77%，SOL报98.22美元跌4.00%；币安约63亿美元资产被盗、分析机构指向朝鲜黑客，压制风险偏好。美联储维持利率不变，日本央行按兵不动、日元走强，流动性预期偏紧。",
+  "tech_briefs": [
+    {
+      "title": "SF Compute 谈可编程数据中心与算力现货市场",
+      "url": "https://latent.space/p/sfcompute2/",
+      "source": "Latent Space",
+      "summary": "访谈介绍 SF Compute 从GPU交易转向实物交割的独立算力市场，把GPU容量做成可编程、可结算的现货合约，若落地将影响AI服务器集群的采购与租赁定价。",
+      "importance": 4
+    }
+  ],
+  "finance_briefs": [
+    {
+      "title": "币安约63亿美元资产被盗，疑为朝鲜黑客所为",
+      "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "币安确认约63亿美元加密资产被盗，两家分析机构将攻击归因于朝鲜黑客组织TraderTraitor，为史上最大规模交易所失窃案，BTC、ETH、SOL当日同步下跌。（多家报道）",
+      "importance": 9
+    },
+    {
+      "title": "工业富联披露2026年第三季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202610291831168765.html",
+      "source": "工业富联公告（交易所披露）",
+      "summary": "交易所披露文件显示公司发布2026年三季报全文，营收、净利与AI服务器业务拆分需以公告正文为准；当日A股收45.87元、涨1.44%，五日累跌6.10%。",
+      "importance": 8
+    },
+    {
+      "title": "美联储FOMC会议维持政策利率不变",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "source": "美联储（官方）",
+      "summary": "美联储发布10月FOMC声明，政策利率维持不变；媒体解读称利率决定与经济增长数据同期公布，美元与实际利率走向仍是黄金定价的核心变量。",
+      "importance": 8
+    },
+    {
+      "title": "金价回落至每盎司4000美元附近",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/gold-steadies-near-4-000-as-inflation-keeps-rate-hike-bets-firm",
+      "source": "Bloomberg Markets",
+      "summary": "彭博报道，油价上行推升通胀压力、科技股抛售迫使投资者变现，黄金跌至约4000美元/盎司，迈向连续第二个月下跌。",
+      "importance": 8
+    },
+    {
+      "title": "日本央行维持利率不变，日元走强",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-30/yen-holds-gains-against-dollar-after-boj-keeps-rates-steady",
+      "source": "Bloomberg Markets",
+      "summary": "彭博报道，日本央行如预期按兵不动，并暗示基础通胀首次达到2%，日元兑美元扩大涨幅，对美元指数与黄金构成间接影响。",
+      "importance": 6
+    }
+  ],
+  "politics_briefs": [],
+  "editor_note": "官方公告与行情同日指向同一方向：风险资产承压，工业富联业绩披露成为短期关键变量。",
+  "keywords": [
+    "工业富联",
+    "三季报",
+    "黄金4000美元",
+    "比特币",
+    "币安黑客",
+    "美联储",
+    "日本央行"
+  ],
+  "trading": {
+    "daily_view": "目标资产走势分化，当前更适合等待价格与动能共同确认，不宜根据单日波动外推趋势。",
+    "action_assessment": {
+      "dip_buying": "仅小仓试探",
+      "selling": "暂不卖出",
+      "summary": "空仓者暂时只宜小仓试探，等待价格与动能共同转强；已有仓位按既定风险线管理，不宜仅因单日波动追涨杀跌。"
+    },
+    "market_overview": "",
+    "watchlist": [],
+    "risk_caveat": "以上内容基于公开行情数据的技术指标计算与文本摘要，不构成任何投资建议。过去走势不代表未来表现，市场风险自负。",
+    "tickers": [
+      {
+        "symbol": "601138.SS",
+        "displayName": "工业富联",
+        "group": "china-equity",
+        "currency": "CNY",
+        "exchangeName": "SHH",
+        "currentPrice": 45.87,
+        "pct1Day": 1.4374143338131595,
+        "pct5Day": -6.100304129384545,
+        "pct52WeekHigh": -46.003531489111246,
+        "pct52WeekLow": 6.699232379623157,
+        "sma20": 50.521999549865725,
+        "sma50": 58.148999786376955,
+        "sma200": 61.14345008850098,
+        "rsi14": 34.00140360008302,
+        "macd": -3.6949662592000436,
+        "macdSignal": -3.642080163938778,
+        "macdHistogram": -0.05288609526126553,
+        "trend": "bearish",
+        "rsiState": "normal",
+        "signals": [
+          {
+            "type": "below-sma50-sma200",
+            "label": "空头排列"
+          }
+        ]
+      },
+      {
+        "symbol": "BTC-USD",
+        "displayName": "Bitcoin",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 78558.09,
+        "pct1Day": -3.33404260289432,
+        "pct5Day": -2.763612867215858,
+        "pct52WeekHigh": -29.61523523158504,
+        "pct52WeekLow": 36.0365871123049,
+        "sma20": 81634.93671875,
+        "sma50": 81894.19140625,
+        "sma200": 73105.757578125,
+        "rsi14": 37.95501540241164,
+        "macd": -620.0452569481276,
+        "macdSignal": -287.6526753887291,
+        "macdHistogram": -332.39258155939854,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "ETH-USD",
+        "displayName": "Ethereum",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 2245.16,
+        "pct1Day": -4.770227242320155,
+        "pct5Day": -4.702707755223693,
+        "pct52WeekHigh": -43.13491992232353,
+        "pct52WeekLow": 49.03096616229198,
+        "sma20": 2405.6476196289063,
+        "sma50": 2529.6107421875,
+        "sma200": 2159.0929986572264,
+        "rsi14": 30.568267068277905,
+        "macd": -63.75517345374146,
+        "macdSignal": -53.37270967627766,
+        "macdHistogram": -10.382463777463805,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      },
+      {
+        "symbol": "SOL-USD",
+        "displayName": "Solana",
+        "group": "crypto",
+        "currency": "USD",
+        "exchangeName": "CCC",
+        "currentPrice": 98.22,
+        "pct1Day": -3.9953036798579658,
+        "pct5Day": -3.961664313431658,
+        "pct52WeekHigh": -50.40382606558177,
+        "pct52WeekLow": 62.57627280238987,
+        "sma20": 104.25487632751465,
+        "sma50": 109.33486297607422,
+        "sma200": 88.70143989562989,
+        "rsi14": 32.796863162090744,
+        "macd": -2.7790557737768466,
+        "macdSignal": -2.3235877055445693,
+        "macdHistogram": -0.45546806823227737,
+        "trend": "neutral",
+        "rsiState": "normal",
+        "signals": []
+      }
+    ],
+    "crypto_fear_greed": {
+      "value": 30,
+      "classification": "Fear",
+      "classificationCn": "恐慌",
+      "timestamp": "2026-10-30T00:00:00.000Z"
+    },
+    "crypto_global": {
+      "totalMarketCapUsd": 2654899318421.405,
+      "total24hVolumeUsd": 140425615660.9365,
+      "marketCapChangePct24h": -4.35202058432369,
+      "btcDominance": 59.403094300967915,
+      "ethDominance": 10.313288560586527,
+      "activeCryptocurrencies": 22609
+    },
+    "generated_at": "2026-10-30T05:48:24.905Z"
+  }
+}
