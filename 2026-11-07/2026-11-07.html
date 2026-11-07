@@ -1,0 +1,1104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>每日简报 · 2026-11-07</title>
+<style>
+  :root {
+    --bg: #fafaf9;
+    --bg-elevated: #ffffff;
+    --fg: #18181b;
+    --fg-soft: #3f3f46;
+    --muted: #71717a;
+    --rule: #e4e4e7;
+    --card: #f4f4f5;
+    --link: #1d4ed8;
+    --accent: #18181b;
+    --accent-fg: #fafaf9;
+    --rank-high-bg: #fee2e2;
+    --rank-high-fg: #991b1b;
+    --rank-mid-bg: #fef3c7;
+    --rank-mid-fg: #92400e;
+    --rank-low-bg: #e0e7ff;
+    --rank-low-fg: #3730a3;
+    --hero-grad-from: #fafaf9;
+    --hero-grad-to: #f4f4f5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0a0a0a;
+      --bg-elevated: #18181b;
+      --fg: #fafafa;
+      --fg-soft: #d4d4d8;
+      --muted: #a1a1aa;
+      --rule: #27272a;
+      --card: #18181b;
+      --link: #93c5fd;
+      --accent: #fafafa;
+      --accent-fg: #0a0a0a;
+      --rank-high-bg: rgba(239,68,68,0.18);
+      --rank-high-fg: #fca5a5;
+      --rank-mid-bg: rgba(245,158,11,0.18);
+      --rank-mid-fg: #fcd34d;
+      --rank-low-bg: rgba(99,102,241,0.18);
+      --rank-low-fg: #a5b4fc;
+      --hero-grad-from: #18181b;
+      --hero-grad-to: #0a0a0a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 960px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+
+  /* ===== header ===== */
+  header.report-header { margin-bottom: 1.25rem; }
+  .eyebrow {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--muted);
+    font-weight: 500;
+  }
+  h1.report-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0.4rem 0 1.2rem;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+  .archive-link {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--rule);
+    padding-bottom: 1px;
+  }
+  .archive-link:hover { color: var(--accent); border-bottom-style: solid; }
+  .hero-card {
+    background: linear-gradient(135deg, var(--hero-grad-from) 0%, var(--hero-grad-to) 100%);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--accent);
+    padding: 1rem 1.4rem;
+    border-radius: 0.6rem;
+  }
+  .hero-eyebrow {
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 500;
+  }
+  .hero-headline {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0.35rem 0 0;
+    line-height: 1.45;
+    color: var(--fg);
+  }
+  .overview-card {
+    margin: 0.7rem 0 0;
+    padding: 0.7rem 1.1rem;
+    background: var(--card);
+    border-radius: 0.5rem;
+    border-left: 3px solid var(--muted);
+  }
+  .overview-card .eyebrow { display: block; margin-bottom: 0.3rem; }
+  .overview-text {
+    margin: 0;
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: var(--fg-soft);
+  }
+
+  /* ===== primary tabs ===== */
+  .tabs {
+    display: flex;
+    gap: 0.25rem;
+    margin: 1.25rem 0 0.75rem;
+    border-bottom: 1px solid var(--rule);
+    flex-wrap: wrap;
+  }
+  .tab {
+    background: none;
+    border: none;
+    padding: 0.7rem 1.1rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--muted);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    font-family: inherit;
+    transition: color 0.15s;
+  }
+  .tab:hover { color: var(--fg); }
+  .tab.active {
+    color: var(--fg);
+    border-bottom-color: var(--accent);
+  }
+  .tab .count {
+    font-size: 0.72rem;
+    color: var(--muted);
+    margin-left: 0.4rem;
+    font-weight: 400;
+  }
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  /* ===== digest (AI 简报) — compact ===== */
+  .digest-category { margin-bottom: 1.1rem; }
+  .category-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.55rem;
+    margin: 0 0 0.55rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .category-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--fg);
+    margin: 0;
+    letter-spacing: 0.05em;
+  }
+  .category-count {
+    font-size: 0.7rem;
+    color: var(--muted);
+    background: var(--card);
+    padding: 0.12rem 0.45rem;
+    border-radius: 999px;
+  }
+  .brief-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  @media (min-width: 720px) {
+    .brief-list { grid-template-columns: 1fr 1fr; }
+  }
+  .brief {
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    border-radius: 0.5rem;
+    padding: 0.7rem 0.95rem;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .brief:hover {
+    border-color: var(--muted);
+    transform: translateY(-1px);
+  }
+  .brief-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+    margin-bottom: 0.3rem;
+  }
+  .brief-source {
+    font-size: 0.72rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+  }
+  .brief-rank {
+    font-size: 0.7rem;
+    padding: 0.12rem 0.5rem;
+    border-radius: 999px;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+  .brief-rank.high { background: var(--rank-high-bg); color: var(--rank-high-fg); }
+  .brief-rank.mid  { background: var(--rank-mid-bg);  color: var(--rank-mid-fg); }
+  .brief-rank.low  { background: var(--rank-low-bg);  color: var(--rank-low-fg); }
+  .brief-title {
+    font-size: 0.98rem;
+    font-weight: 600;
+    margin: 0 0 0.3rem;
+    line-height: 1.35;
+  }
+  .brief-title a { color: var(--fg); text-decoration: none; }
+  .brief-title a:hover { color: var(--link); text-decoration: underline; }
+  .brief-summary {
+    margin: 0;
+    color: var(--fg-soft);
+    font-size: 0.86rem;
+    line-height: 1.55;
+  }
+
+  .editor-card {
+    background: var(--card);
+    border-left: 3px solid var(--muted);
+    border-radius: 0.5rem;
+    padding: 1rem 1.3rem;
+    margin: 1.5rem 0 1.2rem;
+  }
+  .editor-card .eyebrow { display: block; margin-bottom: 0.4rem; }
+  .editor-text {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--fg);
+  }
+  .keywords { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 1.5rem; }
+  .keyword {
+    background: var(--card);
+    color: var(--fg-soft);
+    padding: 0.25rem 0.7rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+  }
+
+  /* ===== L2 sub-tabs ===== */
+  .sub-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 1rem 0;
+  }
+  .sub-tab {
+    background: var(--card);
+    border: 1px solid transparent;
+    padding: 0.5rem 1.05rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--fg-soft);
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.15s;
+  }
+  .sub-tab:hover { border-color: var(--muted); color: var(--fg); }
+  .sub-tab.active {
+    background: var(--accent);
+    color: var(--accent-fg);
+  }
+  .sub-tab .count {
+    font-size: 0.7rem;
+    opacity: 0.75;
+    margin-left: 0.4rem;
+    font-weight: 400;
+  }
+  .sub-content { display: none; }
+  .sub-content.active { display: block; }
+
+  /* ===== L3 source-tabs ===== */
+  .source-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin: 0.9rem 0 1.3rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .source-tab {
+    background: none;
+    border: 1px solid var(--rule);
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    font-size: 0.83rem;
+    color: var(--fg-soft);
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.15s;
+  }
+  .source-tab:hover { border-color: var(--muted); color: var(--fg); }
+  .source-tab.active {
+    background: var(--fg);
+    color: var(--bg);
+    border-color: var(--fg);
+  }
+  .source-tab .count {
+    font-size: 0.7rem;
+    opacity: 0.75;
+    margin-left: 0.3rem;
+  }
+  .source-content { display: none; }
+  .source-content.active { display: block; }
+
+  /* ===== article cards in raw panels ===== */
+  .article {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .article:first-child { padding-top: 0; }
+  .article:last-child { border-bottom: none; }
+  .article-title {
+    font-size: 1rem;
+    margin: 0 0 0.3rem;
+    font-weight: 500;
+    line-height: 1.45;
+  }
+  .article-title a { color: var(--fg); text-decoration: none; }
+  .article-title a:hover { color: var(--link); text-decoration: underline; }
+  .article-meta { color: var(--muted); font-size: 0.76rem; margin: 0 0 0.35rem; }
+  .article-stats {
+    color: var(--muted);
+    font-size: 0.8rem;
+    margin: 0 0 0.4rem;
+    font-feature-settings: "tnum";
+  }
+  .article-excerpt {
+    margin: 0;
+    color: var(--fg-soft);
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  .article-summary {
+    margin: 0.55rem 0 0;
+    padding: 0.6rem 0.85rem;
+    background: var(--card);
+    border-left: 2px solid var(--link);
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--fg);
+  }
+  .summary-label {
+    display: inline-block;
+    font-size: 0.68rem;
+    color: var(--link);
+    margin-right: 0.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .empty {
+    color: var(--muted);
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+  }
+
+  /* ===== trading panel ===== */
+  .crypto-widgets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.55rem;
+    margin: 0.4rem 0 1.2rem;
+  }
+  @media (min-width: 720px) {
+    .crypto-widgets { grid-template-columns: repeat(4, 1fr); }
+  }
+  .crypto-widget {
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    border-radius: 0.5rem;
+    padding: 0.7rem 0.85rem;
+    text-align: center;
+  }
+  .widget-label {
+    font-size: 0.7rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.3rem;
+  }
+  .widget-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: var(--fg);
+    line-height: 1.1;
+  }
+  .widget-sub {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 0.25rem;
+  }
+  .widget-sub.positive { color: #16a34a; }
+  .widget-sub.negative { color: #dc2626; }
+  @media (prefers-color-scheme: dark) {
+    .widget-sub.positive { color: #4ade80; }
+    .widget-sub.negative { color: #fca5a5; }
+  }
+  .crypto-widget.fg-fear-extreme { border-left: 4px solid #b91c1c; }
+  .crypto-widget.fg-fear-extreme .widget-value { color: #b91c1c; }
+  .crypto-widget.fg-fear { border-left: 4px solid #d97706; }
+  .crypto-widget.fg-fear .widget-value { color: #d97706; }
+  .crypto-widget.fg-neutral { border-left: 4px solid var(--muted); }
+  .crypto-widget.fg-greed { border-left: 4px solid #65a30d; }
+  .crypto-widget.fg-greed .widget-value { color: #65a30d; }
+  .crypto-widget.fg-greed-extreme { border-left: 4px solid #16a34a; }
+  .crypto-widget.fg-greed-extreme .widget-value { color: #16a34a; }
+  @media (prefers-color-scheme: dark) {
+    .crypto-widget.fg-fear-extreme .widget-value,
+    .crypto-widget.fg-fear .widget-value { color: #fca5a5; }
+    .crypto-widget.fg-greed .widget-value,
+    .crypto-widget.fg-greed-extreme .widget-value { color: #4ade80; }
+  }
+
+  .trading-overview-card {
+    margin: 0 0 1.5rem;
+    padding: 1rem 1.3rem;
+    background: var(--card);
+    border-radius: 0.5rem;
+    border-left: 3px solid var(--accent);
+  }
+  .trading-overview-card .eyebrow { display: block; margin-bottom: 0.4rem; }
+  .trading-overview-text { font-size: 0.92rem; line-height: 1.75; color: var(--fg-soft); margin: 0; }
+
+  .trading-section-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--rule);
+    color: var(--fg);
+    letter-spacing: 0.05em;
+  }
+
+  /* picks (Sonnet's watchlist) */
+  .trading-picks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+  @media (min-width: 720px) {
+    .trading-picks { grid-template-columns: 1fr 1fr; }
+  }
+  .trading-pick {
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--muted);
+    border-radius: 0.5rem;
+    padding: 0.8rem 1rem;
+  }
+  .trading-pick.stance-bull { border-left-color: #16a34a; }
+  .trading-pick.stance-bear { border-left-color: #dc2626; }
+  .trading-pick.stance-neutral { border-left-color: var(--muted); }
+  .pick-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+    margin-bottom: 0.45rem;
+  }
+  .pick-symbol-block {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .pick-symbol { font-weight: 700; font-size: 1rem; color: var(--fg); }
+  .pick-name { color: var(--muted); font-size: 0.82rem; }
+  .pick-stance {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .pick-stance-bull { background: rgba(22,163,74,0.12); color: #16a34a; }
+  .pick-stance-bear { background: rgba(220,38,38,0.12); color: #dc2626; }
+  .pick-stance-neutral { background: var(--card); color: var(--muted); }
+  .pick-rationale { margin: 0; font-size: 0.88rem; line-height: 1.65; color: var(--fg-soft); }
+
+  /* asset-group tabs */
+  .trading-group-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0.6rem 0 1.2rem;
+  }
+  .trading-group-tab {
+    background: var(--card);
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--fg-soft);
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.15s;
+  }
+  .trading-group-tab:hover { border-color: var(--muted); color: var(--fg); }
+  .trading-group-tab.active {
+    background: var(--accent);
+    color: var(--accent-fg);
+  }
+  .trading-group-tab .count {
+    font-size: 0.7rem;
+    opacity: 0.75;
+    margin-left: 0.4rem;
+    font-weight: 400;
+  }
+  .trading-group-content { display: none; }
+  .trading-group-content.active { display: block; }
+
+  /* ticker cards */
+  .ticker-card {
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    border-radius: 0.55rem;
+    padding: 0.85rem 1.1rem;
+    margin-bottom: 0.7rem;
+  }
+  .ticker-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.65rem;
+  }
+  .ticker-id { min-width: 0; }
+  .ticker-symbol { margin: 0; font-size: 1rem; font-weight: 700; font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; }
+  .ticker-name { margin: 0.15rem 0 0; font-size: 0.82rem; color: var(--muted); }
+  .ticker-price-block { text-align: right; flex-shrink: 0; }
+  .ticker-price { display: block; font-size: 1.05rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .ticker-pct { display: inline-block; font-size: 0.82rem; font-weight: 500; margin-top: 0.15rem; font-variant-numeric: tabular-nums; }
+  .ticker-pct.positive, .positive { color: #16a34a; }
+  .ticker-pct.negative, .negative { color: #dc2626; }
+
+  .ticker-indicators {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.35rem 0.9rem;
+    margin: 0;
+    font-size: 0.82rem;
+    color: var(--fg-soft);
+  }
+  @media (min-width: 720px) {
+    .ticker-indicators { grid-template-columns: repeat(3, 1fr); }
+  }
+  .ticker-indicators > div { display: flex; gap: 0.4rem; align-items: baseline; min-width: 0; }
+  .ticker-indicators dt { color: var(--muted); font-size: 0.74rem; margin: 0; white-space: nowrap; }
+  .ticker-indicators dd { margin: 0; font-variant-numeric: tabular-nums; font-weight: 500; color: var(--fg); }
+  .trend-bullish { color: #16a34a; }
+  .trend-bearish { color: #dc2626; }
+  .trend-neutral { color: var(--muted); }
+  .rsi-overbought { color: #d97706; }
+  .rsi-oversold { color: #2563eb; }
+
+  .ticker-signals {
+    margin-top: 0.65rem;
+    padding-top: 0.55rem;
+    border-top: 1px dashed var(--rule);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+  .signal-pill {
+    font-size: 0.72rem;
+    padding: 0.18rem 0.55rem;
+    border-radius: 999px;
+    font-weight: 500;
+  }
+  .signal-pill.tone-bull { background: rgba(22,163,74,0.13); color: #166534; }
+  .signal-pill.tone-bear { background: rgba(220,38,38,0.13); color: #991b1b; }
+  .signal-pill.tone-caution { background: rgba(217,119,6,0.15); color: #92400e; }
+  @media (prefers-color-scheme: dark) {
+    .signal-pill.tone-bull { color: #4ade80; }
+    .signal-pill.tone-bear { color: #fca5a5; }
+    .signal-pill.tone-caution { color: #fcd34d; }
+    .trend-bullish, .positive, .ticker-pct.positive { color: #4ade80; }
+    .trend-bearish, .negative, .ticker-pct.negative { color: #fca5a5; }
+    .rsi-overbought { color: #fcd34d; }
+    .rsi-oversold { color: #93c5fd; }
+    .trading-pick.stance-bull { border-left-color: #4ade80; }
+    .trading-pick.stance-bear { border-left-color: #fca5a5; }
+    .pick-stance-bull { background: rgba(74,222,128,0.15); color: #4ade80; }
+    .pick-stance-bear { background: rgba(252,165,165,0.15); color: #fca5a5; }
+  }
+  .signal-age { opacity: 0.7; font-weight: 400; }
+
+  .trading-risk {
+    margin: 1.5rem 0 0;
+    padding: 0.9rem 1.2rem;
+    background: var(--card);
+    border-radius: 0.45rem;
+    border-left: 3px solid #d97706;
+  }
+  .trading-risk .eyebrow { display: block; margin-bottom: 0.35rem; }
+  .trading-risk p { margin: 0; font-size: 0.82rem; line-height: 1.65; color: var(--fg-soft); }
+
+  footer {
+    margin-top: 2.5rem;
+    border-top: 1px solid var(--rule);
+    padding-top: 1.1rem;
+    color: var(--muted);
+    font-size: 0.82rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="report-header">
+    <span class="eyebrow">每日简报</span>
+    <h1 class="report-title">2026-11-07</h1>
+    <a class="archive-link" href="../archive.html">← 历史归档</a>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="trading">市场行情<span class="count">5</span></button>
+    <button class="tab " data-tab="tech">技术动态<span class="count">6</span></button>
+    <button class="tab " data-tab="politics">时政观察<span class="count">2</span></button>
+    <button class="tab " data-tab="finance">财经要点<span class="count">12</span></button>
+    
+  </nav>
+
+  <section class="panel active" data-panel="trading"><section class="trading-overview-card">
+    <span class="eyebrow">今日专业观点</span>
+    <p class="overview-text trading-overview-text">整体偏弱震荡，工业富联破位、黄金受强美元压制，加密极度恐慌但BTC仍在短均线下方，反弹需验证量能与BTC能否收复79652。</p>
+  </section>
+
+  <section class="trading-overview-card">
+    <span class="eyebrow">操作判断</span>
+    <p class="overview-text trading-overview-text"><strong>抄底：仅小仓试探</strong> · <strong>卖出：部分减仓</strong></p>
+    <p class="overview-text trading-overview-text">空仓者仅小仓试探：工业富联RSI30.7近超卖但MACD死叉、价40.71低于SMA20 46.94，需站回SMA20；黄金MACD金叉但价4072.1低于SMA20 4080.71，等站稳；BTC、SOL偏弱，ETH相对抗跌。已有仓位宜部分减仓：工业富联优先控制风险，BTC跌破73191、SOL跌破88.97再降险，黄金暂不追减。</p>
+  </section>
+
+  <section class="trading-overview-card">
+    <span class="eyebrow">市场总览</span>
+    <p class="overview-text trading-overview-text">工业富联单日-8.08%、5日-9.53%，跌破SMA20/50/200并呈空头排列，MACD死叉且RSI30.7逼近超卖，芯片股虽反弹但AI疑虑未消，弱势未止。国际现货黄金4072.1，单日-1.01%，略低于SMA20 4080.71，中国央行连续两年购金提供支撑，但美国就业强于预期、加息预期与强势美元令金价承压，汇丰下调目标价。加密总市值2.57T USD、24h-2.42%，恐慌贪婪指数25处极度恐慌，BTC主导率59.3%、ETH10.7%；BTC 75922.68低于SMA20/50但高于SMA200 73191.68，ETH 2245.79有MACD金叉但受SMA20压制，SOL 90.07 RSI31.1且MACD绿柱未收敛，整体风险偏好偏弱。</p>
+  </section>
+
+  <section class="trading-watchlist">
+    <h2 class="category-title trading-section-title">今日关注</h2>
+    <div class="trading-picks">
+      <article class="trading-pick stance-bear">
+    <header class="pick-head">
+      <div class="pick-symbol-block">
+        <span class="pick-symbol">601138.SS</span>
+        <span class="pick-name">工业富联(601138.SS)</span>
+      </div>
+      <span class="pick-stance pick-stance-bear">偏下行</span>
+    </header>
+    <p class="pick-rationale">现价40.71，单日-8.08%、5日-9.53%，低于SMA20 46.94、SMA50 55.97、SMA200 60.64，空头排列；RSI14 30.7逼近超卖但未拐头，MACD -3.8383低于信号-3.7531且死叉，距52周高-52.08%，技术面偏下行。</p>
+  </article>
+<article class="trading-pick stance-neutral">
+    <header class="pick-head">
+      <div class="pick-symbol-block">
+        <span class="pick-symbol">XAU-SPOT</span>
+        <span class="pick-name">国际现货黄金(XAU-SPOT)</span>
+      </div>
+      <span class="pick-stance pick-stance-neutral">中性</span>
+    </header>
+    <p class="pick-rationale">现价4072.1，单日-1.01%、5日+4.44%，略低于SMA20 4080.71，并低于SMA50 4230.42、SMA200 4501.5；RSI14 47.2中性，MACD -53.4302高于信号-65.2968形成金叉，但空头排列未改，距52周高-27.1%，方向中性。</p>
+  </article>
+<article class="trading-pick stance-bear">
+    <header class="pick-head">
+      <div class="pick-symbol-block">
+        <span class="pick-symbol">BTC-USD</span>
+        <span class="pick-name">比特币(BTC)</span>
+      </div>
+      <span class="pick-stance pick-stance-bear">偏下行</span>
+    </header>
+    <p class="pick-rationale">现价75922.68，单日-0.03%、5日-2.97%，低于SMA20 79652.67与SMA50 81978.4，仍高于SMA200 73191.68；RSI14 38.5偏弱，MACD -1383.2994低于信号-1075.4833、绿柱扩张，距52周高-29.33%，短线偏下行。</p>
+  </article>
+<article class="trading-pick stance-neutral">
+    <header class="pick-head">
+      <div class="pick-symbol-block">
+        <span class="pick-symbol">ETH-USD</span>
+        <span class="pick-name">以太坊(ETH)</span>
+      </div>
+      <span class="pick-stance pick-stance-neutral">中性</span>
+    </header>
+    <p class="pick-rationale">现价2245.79，单日+0.51%、5日-1.2%，低于SMA20 2332.52与SMA50 2498.89，高于SMA200 2156.3；RSI14 40.6偏弱，MACD -58.1964高于信号-60.7622形成金叉，短线有修复但均线压制，方向中性。</p>
+  </article>
+<article class="trading-pick stance-bear">
+    <header class="pick-head">
+      <div class="pick-symbol-block">
+        <span class="pick-symbol">SOL-USD</span>
+        <span class="pick-name">索拉纳(SOL)</span>
+      </div>
+      <span class="pick-stance pick-stance-bear">偏下行</span>
+    </header>
+    <p class="pick-rationale">现价90.07，单日+1.04%、5日-4.64%，低于SMA20 98.86与SMA50 108.15，仅高于SMA200 88.97；RSI14 31.1接近超卖，MACD -4.5058低于信号-3.8304，绿柱未收敛，距52周高-47.51%，技术面偏下行。</p>
+  </article>
+    </div>
+  </section>
+
+  <section class="trading-tickers">
+    <h2 class="category-title trading-section-title">全部资产</h2>
+    <nav class="trading-group-tabs"><button class="trading-group-tab active" data-group="china-equity">A股<span class="count">1</span></button><button class="trading-group-tab" data-group="commodity-fx">黄金<span class="count">1</span></button><button class="trading-group-tab" data-group="crypto">加密货币<span class="count">3</span></button></nav>
+    <div class="trading-group-contents"><div class="trading-group-content active" data-group="china-equity">
+      
+      <article class="ticker-card">
+    <header class="ticker-head">
+      <div class="ticker-id">
+        <h3 class="ticker-symbol">601138.SS</h3>
+        <p class="ticker-name">工业富联</p>
+      </div>
+      <div class="ticker-price-block">
+        <span class="ticker-price">¥40.71</span>
+        <span class="ticker-pct negative">-8.08%</span>
+      </div>
+    </header>
+    <dl class="ticker-indicators">
+      <div><dt>5 日</dt><dd class="negative">-9.53%</dd></div>
+      <div><dt>距 52w 高</dt><dd>-52.1%</dd></div>
+      <div><dt>RSI(14)</dt><dd class="rsi-normal">30.7</dd></div>
+      <div><dt>趋势</dt><dd class="trend-bearish">空头</dd></div>
+      <div><dt>SMA 20 / 50 / 200</dt><dd>46.94 / 55.97 / 60.64</dd></div>
+      <div><dt>MACD / 信号</dt><dd>-3.838 / -3.753</dd></div>
+    </dl>
+    <div class="ticker-signals"><span class="signal-pill tone-bear">MACD 死叉 <span class="signal-age">(今天)</span></span><span class="signal-pill tone-bear">接近 52 周低</span><span class="signal-pill tone-bear">空头排列</span></div>
+  </article>
+    </div><div class="trading-group-content" data-group="commodity-fx">
+      
+      <article class="ticker-card">
+    <header class="ticker-head">
+      <div class="ticker-id">
+        <h3 class="ticker-symbol">XAU-SPOT</h3>
+        <p class="ticker-name">国际现货黄金</p>
+      </div>
+      <div class="ticker-price-block">
+        <span class="ticker-price">$4,072.10</span>
+        <span class="ticker-pct negative">-1.01%</span>
+      </div>
+    </header>
+    <dl class="ticker-indicators">
+      <div><dt>5 日</dt><dd class="positive">+4.44%</dd></div>
+      <div><dt>距 52w 高</dt><dd>-27.1%</dd></div>
+      <div><dt>RSI(14)</dt><dd class="rsi-normal">47.2</dd></div>
+      <div><dt>趋势</dt><dd class="trend-bearish">空头</dd></div>
+      <div><dt>SMA 20 / 50 / 200</dt><dd>4,080.71 / 4,230.42 / 4,501.50</dd></div>
+      <div><dt>MACD / 信号</dt><dd>-53.430 / -65.297</dd></div>
+    </dl>
+    <div class="ticker-signals"><span class="signal-pill tone-bull">MACD 金叉 <span class="signal-age">(1 天前)</span></span><span class="signal-pill tone-bear">空头排列</span></div>
+  </article>
+    </div><div class="trading-group-content" data-group="crypto">
+      <div class="crypto-widgets"><div class="crypto-widget fg-fear">
+      <div class="widget-label">加密恐慌贪婪</div>
+      <div class="widget-value">25</div>
+      <div class="widget-sub">极度恐慌</div>
+    </div><div class="crypto-widget">
+      <div class="widget-label">加密总市值</div>
+      <div class="widget-value">$2.57 T</div>
+      <div class="widget-sub negative">-2.42% / 24h</div>
+    </div><div class="crypto-widget">
+      <div class="widget-label">BTC 主导率</div>
+      <div class="widget-value">59.3%</div>
+      <div class="widget-sub">ETH 10.7%</div>
+    </div><div class="crypto-widget">
+      <div class="widget-label">24h 成交量</div>
+      <div class="widget-value">$64.7 B</div>
+      <div class="widget-sub">活跃币 22,839</div>
+    </div></div>
+      <article class="ticker-card">
+    <header class="ticker-head">
+      <div class="ticker-id">
+        <h3 class="ticker-symbol">BTC-USD</h3>
+        <p class="ticker-name">Bitcoin</p>
+      </div>
+      <div class="ticker-price-block">
+        <span class="ticker-price">$75,922.68</span>
+        <span class="ticker-pct negative">-0.03%</span>
+      </div>
+    </header>
+    <dl class="ticker-indicators">
+      <div><dt>5 日</dt><dd class="negative">-2.97%</dd></div>
+      <div><dt>距 52w 高</dt><dd>-29.3%</dd></div>
+      <div><dt>RSI(14)</dt><dd class="rsi-normal">38.5</dd></div>
+      <div><dt>趋势</dt><dd class="trend-neutral">中性</dd></div>
+      <div><dt>SMA 20 / 50 / 200</dt><dd>79,652.67 / 81,978.40 / 73,191.68</dd></div>
+      <div><dt>MACD / 信号</dt><dd>-1,383.299 / -1,075.483</dd></div>
+    </dl>
+    
+  </article><article class="ticker-card">
+    <header class="ticker-head">
+      <div class="ticker-id">
+        <h3 class="ticker-symbol">ETH-USD</h3>
+        <p class="ticker-name">Ethereum</p>
+      </div>
+      <div class="ticker-price-block">
+        <span class="ticker-price">$2,245.79</span>
+        <span class="ticker-pct positive">+0.51%</span>
+      </div>
+    </header>
+    <dl class="ticker-indicators">
+      <div><dt>5 日</dt><dd class="negative">-1.20%</dd></div>
+      <div><dt>距 52w 高</dt><dd>-38.6%</dd></div>
+      <div><dt>RSI(14)</dt><dd class="rsi-normal">40.6</dd></div>
+      <div><dt>趋势</dt><dd class="trend-neutral">中性</dd></div>
+      <div><dt>SMA 20 / 50 / 200</dt><dd>2,332.52 / 2,498.89 / 2,156.30</dd></div>
+      <div><dt>MACD / 信号</dt><dd>-58.196 / -60.762</dd></div>
+    </dl>
+    <div class="ticker-signals"><span class="signal-pill tone-bull">MACD 金叉 <span class="signal-age">(2 天前)</span></span></div>
+  </article><article class="ticker-card">
+    <header class="ticker-head">
+      <div class="ticker-id">
+        <h3 class="ticker-symbol">SOL-USD</h3>
+        <p class="ticker-name">Solana</p>
+      </div>
+      <div class="ticker-price-block">
+        <span class="ticker-price">$90.07</span>
+        <span class="ticker-pct positive">+1.04%</span>
+      </div>
+    </header>
+    <dl class="ticker-indicators">
+      <div><dt>5 日</dt><dd class="negative">-4.64%</dd></div>
+      <div><dt>距 52w 高</dt><dd>-47.5%</dd></div>
+      <div><dt>RSI(14)</dt><dd class="rsi-normal">31.1</dd></div>
+      <div><dt>趋势</dt><dd class="trend-neutral">中性</dd></div>
+      <div><dt>SMA 20 / 50 / 200</dt><dd>98.86 / 108.15 / 88.97</dd></div>
+      <div><dt>MACD / 信号</dt><dd>-4.506 / -3.830</dd></div>
+    </dl>
+    
+  </article>
+    </div></div>
+  </section>
+
+  <section class="trading-risk">
+    <span class="eyebrow">风险提示</span>
+    <p>以上为技术指标解读，过去走势不代表未来表现；价格受宏观、政策与流动性影响，仅供技术指标解读参考，不构成投资建议，请结合自身风险承受能力。</p>
+  </section></section>
+  <section class="panel " data-panel="tech">
+    <nav class="sub-tabs"><button class="sub-tab active" data-sub="github-trending" data-cat="tech">GitHub Trending<span class="count">1</span></button><button class="sub-tab" data-sub="trending-papers" data-cat="tech">热门论文<span class="count">1</span></button><button class="sub-tab" data-sub="ai-news" data-cat="tech">AI 媒体<span class="count">4</span></button></nav>
+<div class="sub-contents"><div class="sub-content active" data-sub-content="github-trending" data-cat="tech">
+    
+    <div class="source-contents">
+      <div class="source-content active" data-source-content="github-trending" data-sub="github-trending" data-cat="tech">
+    <article class="article">
+  <h3 class="article-title"><a href="https://github.com/openssl/openssl" target="_blank" rel="noopener noreferrer">openssl/openssl</a></h3>
+  <p class="article-stats">C · ★ 31,327 · 🍴 11,583 · 📈 26 stars today</p>
+  
+  <p class="article-excerpt">General purpose TLS and crypto library</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> OpenSSL 是通用的 TLS 与密码学基础库，提供 SSL/TLS 协议实现、证书管理与对称/非对称加密、摘要、密钥交换等原语，解决了安全通信与数据加密的底层需求。Web 服务器、数据库、操作系统组件及各类客户端软件常用它实现 HTTPS 与加密传输，也可作为开发密码功能的依赖库。</p>
+</article>
+  </div>
+    </div>
+  </div>
+<div class="sub-content" data-sub-content="trending-papers" data-cat="tech">
+    
+    <div class="source-contents">
+      <div class="source-content active" data-source-content="huggingface-papers" data-sub="trending-papers" data-cat="tech">
+    <article class="article">
+  <h3 class="article-title"><a href="https://huggingface.co/papers/2611.04408" target="_blank" rel="noopener noreferrer">Halley: A Predictive Control Plane for Optical AI Data Center Networks</a></h3>
+  <p class="article-stats">👍 39</p>
+  <p class="article-meta">11/03 14:45</p>
+  <p class="article-excerpt">A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed o</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> AI 数据中心跨机架的光网络从激光器到交换机共四层，均采用固定的控制策略，难以匹配每个训练步中全体加速器同时交换数据造成的突发流量。Halley 提出一种预测式控制平面，通过预判训练通信模式提前重配光路。摘录未给出量化指标。</p>
+</article>
+  </div>
+    </div>
+  </div>
+<div class="sub-content" data-sub-content="ai-news" data-cat="tech">
+    
+    <div class="source-contents">
+      <div class="source-content active" data-source-content="_merged" data-sub="ai-news" data-cat="tech">
+    <article class="article">
+  <h3 class="article-title"><a href="https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/" target="_blank" rel="noopener noreferrer">Texas was the new epicenter of the AI data center buildout. That might be kaput.</a></h3>
+  
+  <p class="article-meta">MIT Tech Review AI · 11/05 02:50</p>
+  <p class="article-excerpt">Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor aga</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> 德州是美国增长最快的数据中心市场，也是大型科技公司AI基建的核心地带。民主党人James Talarico击败Ken Paxton赢得联邦参议院席位，Gina Hinojosa亦胜选，政治风向转变或危及德州这一地位。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://openai.com/index/devrev-enterprise-self-service" target="_blank" rel="noopener noreferrer">DevRev delivers autonomous self-service with GPT-6.1 Sol</a></h3>
+  
+  <p class="article-meta">OpenAI News · 11/04 08:00</p>
+  <p class="article-excerpt">DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> DevRev 使用 GPT-6.1 Sol 驱动其 Computer 与 Operator 产品，在企业服务场景中平衡推理能力、响应速度与成本。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://news.smol.ai/issues/26-08-06-not-much/" target="_blank" rel="noopener noreferrer">not much happened today</a></h3>
+  
+  <p class="article-meta">Smol AI News · 08/06 13:44</p>
+  <p class="article-excerpt">**Meta&#39;s Muse Spark 1.2** rapidly rose to frontier-tier with top 5 ranking on Vals Index at **$0.69/test**, being **3x cheaper than Kimi** and **10x+ cheaper than Fable, Opus, and 5.6 Sol**. It achieved **gold-medal-level performance in five STEM Olympiads** with perfect theory scores in APhO and IP</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> Meta 的 Muse Spark 1.2 升至前沿梯队，在 Vals 指数排名前五，每例测试成本 0.69 美元，比 Kimi 便宜 3 倍、比 Fable、Opus 和 5.6 Sol 便宜 10 倍以上，并在五项 STEM 奥赛中达到金牌水平。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://news.smol.ai/issues/26-07-30-not-much/" target="_blank" rel="noopener noreferrer">not much happened today</a></h3>
+  
+  <p class="article-meta">Smol AI News · 07/30 13:44</p>
+  <p class="article-excerpt">**OpenAI** aggressively cut prices for **GPT-5.6 Luna** by 80% and **Terra** by 20%, introducing a faster **Sol Fast** tier with up to 2.5× lower latency at double the price, improving agent workflow costs by roughly 10×. The **ARC-AGI-3** debate highlighted that the complete agent system, including</p>
+  <p class="article-summary"><span class="summary-label">中文介绍</span> OpenAI 将 GPT-5.6 Luna 价格下调 80%、Terra 下调 20%，并推出延迟最多降低 2.5 倍、价格翻倍的 Sol Fast 层级，使智能体工作流成本约改善 10 倍。</p>
+</article>
+  </div>
+    </div>
+  </div></div>
+  </section>
+  <section class="panel " data-panel="politics">
+    <div class="sub-content active" data-sub-content="world" data-cat="politics">
+    
+    <div class="source-contents">
+      <div class="source-content active" data-source-content="_merged" data-sub="world" data-cat="politics">
+    <article class="article">
+  <h3 class="article-title"><a href="https://www.dw.com/zh/交易所逾60亿美元加密资产遭窃-fbi：朝鲜应对此负责/a-79821894?maca=chi-rss-chi-all-1127-rdf" target="_blank" rel="noopener noreferrer">交易所逾60亿美元加密资产遭窃 FBI：朝鲜应对此负责</a></h3>
+  
+  <p class="article-meta">DW 中文 · 11/01 20:09</p>
+  <p class="article-excerpt">美国联邦调查局宣布，本周发生的加密货币交易所被黑客袭击并盗走巨额事件是朝鲜所为：一个名叫TraderTraitor的组织去年也进行过类似活动。</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 美国联邦调查局（FBI）表示，本周一家加密货币交易所遭黑客攻击、逾60亿美元加密资产被盗，事件为朝鲜所为；名为TraderTraitor的组织去年曾实施类似活动。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.theguardian.com/business/2026/oct/30/sinkholes-scarred-land-scapegoats-illegal-gold-mining-johannesburg" target="_blank" rel="noopener noreferrer">Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg</a></h3>
+  
+  <p class="article-meta">The Guardian · 10/30 13:00</p>
+  <p class="article-excerpt">There is no end in sight for the drivers of illegal mining, while police action appears ineffective Cora Bailey has been encountering illegal miners ever since she first started treating injured animals in the townships around Roodepoort, west of Johannesburg, in 1991. But as the price of gold has s</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 《卫报》报道约翰内斯堡非法采金问题：地表塌陷、土地受损，警方执法被认为成效不彰，非法采矿的推动因素短期内难见终结；兽医科拉·贝利自1991年起在鲁德普特周边乡镇救治受伤动物，长期接触非法矿工。</p>
+</article>
+  </div>
+    </div>
+  </div>
+  </section>
+  <section class="panel " data-panel="finance">
+    <div class="sub-content active" data-sub-content="news" data-cat="finance">
+    
+    <div class="source-contents">
+      <div class="source-content active" data-source-content="_merged" data-sub="news" data-cat="finance">
+    <article class="article">
+  <h3 class="article-title"><a href="https://www.bloomberg.com/news/articles/2026-11-07/china-extends-gold-buying-streak-to-two-years-as-prices-drop" target="_blank" rel="noopener noreferrer">China Extends Gold-Buying Streak to Two Years as Prices Drop</a></h3>
+  
+  <p class="article-meta">Bloomberg Markets · 11/07 10:26</p>
+  <p class="article-excerpt">China’s central bank added to its gold reserves in October — extending a buying streak to two years — as the precious metal fell almost 7% to end the month below the $4,000-an-ounce support threshold.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 中国央行10月继续增持黄金储备，购金连续时间延长至两年。当月金价下跌近7%，月末跌破每盎司4000美元支撑位。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.cls.cn/detail/2421868" target="_blank" rel="noopener noreferrer">汇丰下调黄金目标价鹰派美联储与强势美元持续施压</a></h3>
+  <p class="article-stats">AnySearch · 权威媒体</p>
+  <p class="article-meta">财联社 · 11/06 18:49</p>
+  <p class="article-excerpt">①汇丰银行因市场预期美联储货币政策转鹰派、美元走强，下调2026年黄金均价预测至4560美元/盎司，下调2027年预测至4925美元/盎司； ②不过汇丰认为金价 ... date: 19 hours ago</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 汇丰银行下调黄金价格预测，将2026年黄金均价目标下调至每盎司4560美元，2027年下调至4925美元，原因是市场预期美联储货币政策转鹰、美元走强。汇丰仍对金价后市持部分乐观看法。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html" target="_blank" rel="noopener noreferrer">ECB publishes consolidated banking data for end-June 2026</a></h3>
+  
+  <p class="article-meta">欧洲央行（官方） · 11/06 17:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 欧洲央行发布截至2026年6月底的合并银行业数据。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.bloomberg.com/news/articles/2026-11-06/gold-set-for-biggest-weekly-gain-since-august-after-us-midterms" target="_blank" rel="noopener noreferrer">Gold Extends Drop on Stronger-Than-Expected US Employment Data</a></h3>
+  
+  <p class="article-meta">Bloomberg Markets · 11/06 08:09</p>
+  <p class="article-excerpt">Gold fell after a hot US nonfarm payrolls print added fuel to speculations that the Federal Reserve will seek to raise interest rates to contain inflation.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 美国非农就业数据强于预期，加剧市场对美联储将通过加息抑制通胀的猜测，金价随之下跌。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.bloomberg.com/news/articles/2026-11-05/stock-market-today-dow-s-p-live-updates" target="_blank" rel="noopener noreferrer">Chip Stocks Climb After Rout, But AI Doubts Linger: Markets Wrap</a></h3>
+  
+  <p class="article-meta">Bloomberg Markets · 11/06 06:17</p>
+  <p class="article-excerpt">A rebound in chipmakers propped up the stock market as dip buyers emerged despite economic data that reinforced speculation the Federal Reserve will boost rates in December.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 芯片股在前期大跌后反弹，带动美股回稳，逢低买盘入场；但经济数据强化了市场对美联储12月加息的预期，人工智能相关疑虑仍未消散。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Interest rates hiked to 4% in first increase in over three years</a></h3>
+  
+  <p class="article-meta">BBC Business · 11/06 01:09</p>
+  <p class="article-excerpt">Most analysts expected the increase from 3.75% to 4%.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 英国央行将利率从3.75%上调至4%，为三年多来首次加息。多数分析师此前已预期此次加息。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.bbc.co.uk/news/articles/ckr5y0y37gv3o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Faisal Islam: How high will interest rates go?</a></h3>
+  
+  <p class="article-meta">BBC Business · 11/05 21:17</p>
+  <p class="article-excerpt">The BBC&#39;s economics editor views one more interest rate as likely, but thinks that will be all.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> BBC经济编辑Faisal Islam分析认为，本轮加息周期可能还会有一次加息，但之后将不再继续。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.bbc.co.uk/news/articles/cx4g1q3vlp62o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Three ways the interest rate rise could affect you</a></h3>
+  
+  <p class="article-meta">BBC Business · 11/05 21:08</p>
+  <p class="article-excerpt">Job, loans and savings are all affected by the rise in interest rates announced by the Bank of England.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> BBC梳理英国央行此次加息对个人的三条影响路径：就业、贷款与储蓄均会受到利率上升的波及。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026" target="_blank" rel="noopener noreferrer">Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes</a></h3>
+  
+  <p class="article-meta">英国央行（官方） · 11/05 20:00</p>
+  <p class="article-excerpt">The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 英国央行货币政策委员会决定将银行利率上调至4%，并公布2026年11月货币政策摘要与会议纪要。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html" target="_blank" rel="noopener noreferrer">Isabel Schnabel: Navigating stormy waters: reflections on monetary policy</a></h3>
+  
+  <p class="article-meta">欧洲央行（官方） · 11/05 16:00</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 欧洲央行执行委员会成员伊莎贝尔·施纳贝尔发表题为「在风浪中前行：对货币政策的思考」的讲话。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html" target="_blank" rel="noopener noreferrer">Piero Cipollone: Shaping the future of money</a></h3>
+  
+  <p class="article-meta">欧洲央行（官方） · 11/05 15:30</p>
+  
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 欧洲央行执行委员会成员皮耶罗·奇波隆内发表题为「塑造货币的未来」的讲话。</p>
+</article>
+<article class="article">
+  <h3 class="article-title"><a href="https://www.sec.gov/newsroom/press-releases/2026-112-sec-adopts-amendments-update-definitions-small-entity-investment-companies-investment-advisers" target="_blank" rel="noopener noreferrer">SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers</a></h3>
+  
+  <p class="article-meta">美国证监会 SEC（官方） · 11/05 00:28</p>
+  <p class="article-excerpt">The Securities and Exchange Commission today adopted amendments to the rules that define which registered investment companies, investment advisers, and business development companies qualify as small entities for purposes of the Regulatory Flexibility…</p>
+  <p class="article-summary"><span class="summary-label">中文摘要</span> 美国证监会通过规则修订案，更新注册投资公司、投资顾问及业务发展公司中「小型实体」的认定标准，用于监管灵活性相关用途。</p>
+</article>
+  </div>
+    </div>
+  </div>
+  </section>
+  
+
+  <footer>
+    内容均来自原媒体，本站仅作摘要整理与回链。
+  </footer>
+</main>
+<script>
+  document.querySelectorAll('.tabs > .tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var target = btn.dataset.tab;
+      document.querySelectorAll('.tabs > .tab').forEach(function (b) {
+        b.classList.toggle('active', b === btn);
+      });
+      document.querySelectorAll('.panel').forEach(function (p) {
+        p.classList.toggle('active', p.dataset.panel === target);
+      });
+    });
+  });
+  // Scope sub-tab / source-tab toggles to the parent .panel so two L1 panels
+  // can share the same data-cat (e.g. tech main + community both data-cat=tech)
+  // without stomping on each other's active state.
+  document.querySelectorAll('.sub-tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var panel = btn.closest('.panel');
+      if (!panel) return;
+      var sub = btn.dataset.sub;
+      panel.querySelectorAll('.sub-tab').forEach(function (b) {
+        b.classList.toggle('active', b === btn);
+      });
+      panel.querySelectorAll('.sub-content').forEach(function (p) {
+        p.classList.toggle('active', p.dataset.subContent === sub);
+      });
+    });
+  });
+  document.querySelectorAll('.source-tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var subContent = btn.closest('.sub-content');
+      if (!subContent) return;
+      var src = btn.dataset.source;
+      subContent.querySelectorAll('.source-tab').forEach(function (b) {
+        b.classList.toggle('active', b === btn);
+      });
+      subContent.querySelectorAll('.source-content').forEach(function (p) {
+        p.classList.toggle('active', p.dataset.sourceContent === src);
+      });
+    });
+  });
+  // Trading panel: asset-group sub-tabs (US/crypto/china/commodity)
+  document.querySelectorAll('.trading-group-tab').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var grp = btn.dataset.group;
+      document.querySelectorAll('.trading-group-tab').forEach(function (b) {
+        b.classList.toggle('active', b === btn);
+      });
+      document.querySelectorAll('.trading-group-content').forEach(function (p) {
+        p.classList.toggle('active', p.dataset.group === grp);
+      });
+    });
+  });
+</script>
+</body>
+</html>
