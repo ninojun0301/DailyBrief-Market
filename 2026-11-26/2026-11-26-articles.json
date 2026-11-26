@@ -1,0 +1,1264 @@
+{
+  "date": "2026-11-26",
+  "articles": [
+    {
+      "sourceId": "anysearch-market",
+      "title": "工业富联41.00(3.51%)_个股资讯- 新浪财经",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vCB_AllNewsStock/symbol/sh601138.phtml",
+      "excerpt": "2026-11-26 00:43 拨开情绪迷雾，科技龙头跌出估值洼地 2026-11-25 22:41 工业富联(601138.SH)：公司高度重视CPO相关业务的前瞻布局 2026-11-25 22:40 工业富联(601138.",
+      "publishedAt": "2026-11-26T00:43:00.000Z",
+      "category": "finance",
+      "publisher": "新浪财经",
+      "meta": "AnySearch · 权威媒体",
+      "source": "新浪财经",
+      "summary": "工业富联（601138.SH）股价报41.00元，涨3.51%。公司表示高度重视CPO（共封装光学）相关业务的前瞻布局，市场人士认为科技龙头估值已回落至低位。"
+    },
+    {
+      "sourceId": "openai-news",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "excerpt": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "category": "tech",
+      "source": "OpenAI News",
+      "summary": "Richpanel 借助 GPT-6 Astra、GPT-6.1 Sol 为客户支持智能体配置工具与流程，并以 GPT-6 Luna 负责对话，称可帮助企业在一个月内将 50% 的客服工作量自动化。"
+    },
+    {
+      "sourceId": "openai-news",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "excerpt": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "publishedAt": "2026-11-17T17:45:00.000Z",
+      "category": "tech",
+      "source": "OpenAI News",
+      "summary": "OpenAI 发布 GPT-6.2 Astra 与 Sol，称其在专业内容输出、编程、计算机操作和效率方面均有提升且成本更低，覆盖 ChatGPT Work、Codex 与 API 三类使用场景。"
+    },
+    {
+      "sourceId": "smol-ai-news",
+      "title": "not much happened today",
+      "url": "https://news.smol.ai/issues/26-08-06-not-much/",
+      "excerpt": "**Meta's Muse Spark 1.2** rapidly rose to frontier-tier with top 5 ranking on Vals Index at **$0.69/test**, being **3x cheaper than Kimi** and **10x+ cheaper than Fable, Opus, and 5.6 Sol**. It achieved **gold-medal-level performance in five STEM Olympiads** with perfect theory scores in APhO and IP",
+      "publishedAt": "2026-08-06T05:44:39.000Z",
+      "category": "tech",
+      "source": "Smol AI News",
+      "summary": "Meta 的 Muse Spark 1.2 快速升至前沿梯队，在 Vals 指数排名前五，单次测试成本0.69美元，比 Kimi 便宜3倍，比 Fable、Opus 和 5.6 Sol 便宜10倍以上；在五项 STEM 奥林匹克竞赛中达到金牌水平。"
+    },
+    {
+      "sourceId": "smol-ai-news",
+      "title": "not much happened today",
+      "url": "https://news.smol.ai/issues/26-07-30-not-much/",
+      "excerpt": "**OpenAI** aggressively cut prices for **GPT-5.6 Luna** by 80% and **Terra** by 20%, introducing a faster **Sol Fast** tier with up to 2.5× lower latency at double the price, improving agent workflow costs by roughly 10×. The **ARC-AGI-3** debate highlighted that the complete agent system, including",
+      "publishedAt": "2026-07-30T05:44:39.000Z",
+      "category": "tech",
+      "source": "Smol AI News",
+      "summary": "OpenAI 大幅下调 GPT-5.6 Luna 价格80%、Terra 价格20%，并推出延迟最多降低2.5倍、价格翻倍的 Sol Fast 层级，使智能体工作流成本约改善10倍；同期 ARC-AGI-3 相关争论持续。"
+    },
+    {
+      "sourceId": "latent-space",
+      "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+      "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+      "excerpt": "November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83.",
+      "publishedAt": "2026-11-19T07:07:43.000Z",
+      "category": "tech",
+      "source": "Latent Space"
+    },
+    {
+      "sourceId": "latent-space",
+      "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+      "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+      "excerpt": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
+      "publishedAt": "2026-11-18T10:19:04.000Z",
+      "category": "tech",
+      "source": "Latent Space",
+      "summary": "2026年11月17日消息，GPT-6.2 Astra 位列前沿模型第二，成本降低20%至600%，但早期测试者对其使用体验评价不一；GPT-6.2 Sol 预计成为主要工作模型。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Spain's De Cos Set to Succeed Lagarde as ECB President",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-26/spain-s-de-cos-set-to-succeed-lagarde-as-ecb-president-video-mwxmko5n",
+      "excerpt": "Pablo Hernandez de Cos is set to become European Central Bank president, directing the region’s fight against inflation and possible bond turmoil. The 55-year-old Spaniard will take over from Christine Lagarde, who ends her term early on Feb. 7. Bloomberg's Zoe Schneeweiss reports from Frankfurt. (S",
+      "publishedAt": "2026-11-26T14:05:43.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "西班牙人、现年55岁的德科斯（Pablo Hernandez de Cos）将接替拉加德出任欧洲央行行长，负责该地区抗击通胀及应对潜在债市动荡。拉加德任期于2月7日提前结束。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "ECB Officials Saw More Tightening With Inflation Outlook Worse",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/ecb-officials-saw-more-tightening-with-inflation-outlook-worse",
+      "excerpt": "European Central Bank officials meeting last month envisaged tightening monetary policy further in the future after the outlook for inflation worsened.",
+      "publishedAt": "2026-11-26T13:09:36.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "欧洲央行官员在上月会议上认为通胀前景恶化，并预计未来将进一步收紧货币政策。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "BBVA Weighs SRT to Hedge About $500 Million of Data Center Loans",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/bbva-weighs-srt-to-hedge-about-500-million-of-data-center-loans",
+      "excerpt": "BBVA SA is considering a deal that would offload risk on about €500 million ($547 million) of data center loans, as banks worldwide explore multiple ways to hedge their exposure to artificial intelligence-related infrastructure.",
+      "publishedAt": "2026-11-26T12:27:00.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "西班牙对外银行（BBVA）正考虑通过重大风险转移（SRT）交易对冲约5亿欧元（约5.47亿美元）数据中心贷款风险，反映全球银行正多途径对冲人工智能基础设施相关敞口。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Inflation-Wary Shoppers Prepare for Black Friday",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-26/inflation-wary-shoppers-prepare-for-black-friday-video",
+      "excerpt": "Retailers had plenty of reasons to be worried about this year’s holiday season, but the latest round of earnings, from Dick’s Sporting Goods Inc. to Kohl’s Corp. and Dollar Tree Inc., show that shoppers are still spending briskly, despite their concerns about rising costs. Bloomberg's Shaquille Omar",
+      "publishedAt": "2026-11-26T12:18:13.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "通胀担忧下美国消费者迎接黑色星期五。迪克体育用品、科尔士百货和美元树等最新财报显示，尽管消费者担忧成本上升，支出仍保持较快增长。"
+    },
+    {
+      "sourceId": "wsj-markets",
+      "title": "Comex Gold, Silver Settle Lower",
+      "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "excerpt": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
+      "publishedAt": "2025-01-27T19:01:00.000Z",
+      "category": "finance",
+      "source": "WSJ Markets"
+    },
+    {
+      "sourceId": "wsj-markets",
+      "title": "In China, a Cat-and-Mouse Game to Rein In Crypto",
+      "url": "https://www.wsj.com/articles/china-cryptocurrency-market-trading-restrictions-3e050cd9?mod=rss_markets_main",
+      "excerpt": "Recent court cases reveal how middlemen are facilitating a booming trade, eluding a crackdown.",
+      "publishedAt": "2025-01-26T05:01:00.000Z",
+      "category": "finance",
+      "source": "WSJ Markets"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "UK plans strict rules for crypto DeFi sector",
+      "url": "https://www.ft.com/content/ec820cb6-4983-4ece-8e7b-de116b57525d?syn-25a6b1a6=1",
+      "excerpt": "FCA points to Binance heist and ‘lack of consumer protections’ as reasons for tighter regulation of decentralised finance than in US and EU",
+      "publishedAt": "2026-11-26T05:00:19.000Z",
+      "category": "finance",
+      "source": "Financial Times",
+      "summary": "英国金融行为监管局（FCA）计划对加密去中心化金融（DeFi）实施比美国和欧盟更严格的监管，理由包括币安遭黑客攻击及消费者保护缺失。"
+    },
+    {
+      "sourceId": "economist-finance",
+      "title": "Bond yields are rising everywhere—except China",
+      "url": "https://www.economist.com/finance-and-economics/2026/11/19/bond-yields-are-rising-everywhere-except-china",
+      "excerpt": "The Chinese central bank has cut interest rates despite itself",
+      "publishedAt": "2026-11-19T10:04:37.000Z",
+      "category": "finance",
+      "source": "The Economist Finance"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
+      "excerpt": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+      "publishedAt": "2026-11-24T19:00:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+      "excerpt": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "publishedAt": "2026-11-18T19:00:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+      "excerpt": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "publishedAt": "2026-11-12T17:45:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "excerpt": "Federal Reserve issues FOMC statement",
+      "publishedAt": "2026-10-28T18:00:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+      "excerpt": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "publishedAt": "2026-10-13T18:00:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
+      "excerpt": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+      "publishedAt": "2026-10-07T18:00:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "excerpt": "Federal Reserve issues FOMC statement",
+      "publishedAt": "2026-09-16T18:00:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+      "excerpt": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "publishedAt": "2026-09-16T18:00:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm",
+      "excerpt": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+      "publishedAt": "2026-08-25T18:00:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+      "excerpt": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+      "publishedAt": "2026-08-19T18:00:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "excerpt": "Federal Reserve issues FOMC statement",
+      "publishedAt": "2026-07-29T18:00:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
+      "excerpt": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+      "publishedAt": "2026-07-14T18:00:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+      "excerpt": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+      "publishedAt": "2026-07-09T19:00:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+      "excerpt": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "publishedAt": "2026-07-08T18:00:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "federal-reserve-monetary",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+      "excerpt": "Federal Reserve issues FOMC statement",
+      "publishedAt": "2026-06-17T18:00:00.000Z",
+      "category": "finance",
+      "source": "美联储（官方）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司投资者关系活动记录表20261123",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202611251832039207.html",
+      "excerpt": "公告类型：调研活动",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：调研活动。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司第四届董事会第六次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202611241831997265.html",
+      "excerpt": "公告类型：分配预案、董事会决议公告",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：分配预案、董事会决议公告。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司关于公司2026年前三季度利润分配方案的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202611241831997266.html",
+      "excerpt": "公告类型：分配预案",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：分配预案。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司关于2026年员工持股计划的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202611201831902177.html",
+      "excerpt": "公告类型：员工持股计划",
+      "publishedAt": "2026-11-21T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：员工持股计划。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司关于2026年员工持股计划的进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202611191831868456.html",
+      "excerpt": "公告类型：员工持股计划",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：员工持股计划。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司员工持股计划信托协议",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202611191831868455.html",
+      "excerpt": "公告类型：员工持股计划",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：员工持股计划。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:北京市金杜律师事务所关于富士康工业互联网股份有限公司2026年第二次临时股东会之法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202611161831756842.html",
+      "excerpt": "公告类型：法律意见书",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：法律意见书。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司2026年第二次临时股东会决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202611161831756841.html",
+      "excerpt": "公告类型：股东大会决议公告",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：股东大会决议公告。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司关于召开2026年第三季度业绩说明会的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202611161831756840.html",
+      "excerpt": "公告类型：其他",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：其他。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:北京市金杜律师事务所关于富士康工业互联网股份有限公司2026年员工持股计划之法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202611121831655506.html",
+      "excerpt": "公告类型：法律意见书",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：法律意见书。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司2026年第二次临时股东会会议资料",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202611091831551183.html",
+      "excerpt": "公告类型：股东大会资料",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：股东大会资料。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司董事会薪酬与考核委员会关于2026年员工持股计划相关事项的核查意见",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202610301831250018.html",
+      "excerpt": "公告类型：专项说明/独立意见",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：专项说明/独立意见。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司第四届董事会第五次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202610301831250016.html",
+      "excerpt": "公告类型：董事会决议公告",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：董事会决议公告。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司职工代表大会关于2026年员工持股计划的决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202610301831250017.html",
+      "excerpt": "公告类型：员工持股计划",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：员工持股计划。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司2026年员工持股计划(草案)",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202610301831250013.html",
+      "excerpt": "公告类型：员工持股计划",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：员工持股计划。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司关于2027年度“提质增效重回报”行动方案的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202610301831250012.html",
+      "excerpt": "公告类型：其他",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：其他。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司2026年员工持股计划(草案)摘要",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202610301831250014.html",
+      "excerpt": "公告类型：员工持股计划",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：员工持股计划。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司2026年员工持股计划管理办法",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202610301831250015.html",
+      "excerpt": "公告类型：员工持股计划、管理办法/制度",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：员工持股计划、管理办法/制度。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司关于召开2026年第二次临时股东会的通知",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202610301831250010.html",
+      "excerpt": "公告类型：召开股东大会通知",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：召开股东大会通知。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司第四届董事会第四次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202610291831168759.html",
+      "excerpt": "公告类型：董事会决议公告",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：董事会决议公告。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司2026年第三季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202610291831168765.html",
+      "excerpt": "公告类型：三季度报告全文",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：三季度报告全文。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司关于美国国际贸易委员会对公司及控股子公司开展337调查的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202610111830333618.html",
+      "excerpt": "公告类型：其他",
+      "publishedAt": "2026-10-12T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：其他。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司关于股份回购实施结果暨股份变动的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202609181829616442.html",
+      "excerpt": "公告类型：股本变动、回购进展情况、回购实施公告",
+      "publishedAt": "2026-09-19T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：股本变动、回购进展情况、回购实施公告。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司关于股份回购进展公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202609021828922529.html",
+      "excerpt": "公告类型：回购进展情况",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：回购进展情况。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司投资者关系活动记录表20260825",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202608261828484856.html",
+      "excerpt": "公告类型：调研活动",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：调研活动。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司关于以集中竞价交易方式首次回购股份的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202608191828157550.html",
+      "excerpt": "公告类型：回购实施公告",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：回购实施公告。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司关于召开2026年半年度业绩说明会的公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202608181828107814.html",
+      "excerpt": "公告类型：其他",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：其他。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司2026年半年度募集资金存放、管理与实际使用情况的专项报告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202608111827859008.html",
+      "excerpt": "公告类型：募集资金使用情况报告",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：募集资金使用情况报告。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司第四届董事会第三次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202608111827859011.html",
+      "excerpt": "公告类型：高管人员任职变动、董事会决议公告",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：高管人员任职变动、董事会决议公告。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "fii-announcements",
+      "title": "工业富联:富士康工业互联网股份有限公司2026年半年度报告摘要",
+      "url": "https://data.eastmoney.com/notices/detail/601138/AN202608111827859014.html",
+      "excerpt": "公告类型：半年度报告摘要",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "category": "finance",
+      "summary": "公司披露公告，类型：半年度报告摘要。",
+      "source": "工业富联公告（交易所披露）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting",
+      "excerpt": "The Securities and Exchange Commission’s Investor Advisory Committee will hold a virtual public meeting on Dec. 3, at 9:30 a.m. ET to discuss the trading of tokenized securities, bankruptcy, and accounting oversight. The meeting will be webcast…",
+      "publishedAt": "2026-11-25T14:10:24.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）",
+      "summary": "美国证监会（SEC）投资者咨询委员会将于12月3日美东时间上午9时30分召开线上公开会议，讨论代币化证券交易、破产及会计监督等议题，会议将网络直播。"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Issues Proposal to Restructure the Consolidated Audit Trail",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
+      "excerpt": "The Securities and Exchange Commission today issued a proposal to address the inefficiencies in the current governance and funding model of the Consolidated Audit Trail (CAT). The Commission is proposing to rescind Rule 613 of Regulation NMS, which…",
+      "publishedAt": "2026-11-20T18:03:24.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
+      "excerpt": "The Securities and Exchange Commission today announced that it has obtained a temporary restraining order, asset freeze, expedited discovery, and other relief against Indianapolis-based Backward Hat Capital, its co-founders Phillip Williams and Devin…",
+      "publishedAt": "2026-11-20T14:28:28.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
+      "excerpt": "The Securities and Exchange Commission today charged eight Colorado-based entities, likely operated by individuals located overseas, for defrauding U.S. investors out of more than $37 million. The defendants allegedly lured investors to believe they were…",
+      "publishedAt": "2026-11-19T14:39:02.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Proposes Executive and Director Compensation Disclosure Reforms",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms",
+      "excerpt": "The Securities and Exchange Commission today proposed rule amendments to make its executive and director compensation disclosure requirements more principles-based and materiality-driven, providing investors with clearer, more concise, and less complex…",
+      "publishedAt": "2026-11-13T16:57:00.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Announces Enforcement Annual Results for Fiscal Year 2026",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-113-sec-announces-enforcement-annual-results-fiscal-year-2026",
+      "excerpt": "The Securities and Exchange Commission today provided its enforcement results for the past fiscal year which ended September 30. Throughout the fiscal year, the SEC’s Division of Enforcement remained focused on its fundamental responsibility: protecting…",
+      "publishedAt": "2026-11-10T16:15:35.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-112-sec-adopts-amendments-update-definitions-small-entity-investment-companies-investment-advisers",
+      "excerpt": "The Securities and Exchange Commission today adopted amendments to the rules that define which registered investment companies, investment advisers, and business development companies qualify as small entities for purposes of the Regulatory Flexibility…",
+      "publishedAt": "2026-11-04T16:28:00.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo",
+      "excerpt": "The Securities and Exchange Commission took another step forward today to assist broker-dealers and other market participants on the path to central clearing of U.S. Treasury securities by issuing exemptive relief related to inter-affiliate repo…",
+      "publishedAt": "2026-10-30T19:30:00.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "Two Entities Charged in $130 Million Fraud Scheme That Used False SEC Filings to Boost Investor Confidence",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-110-two-entities-charged-130-million-fraud-scheme-used-false-sec-filings-boost-investor-confidence",
+      "excerpt": "The Securities and Exchange Commission today charged two foreign-operated, Colorado-incorporated entities, BG Wealth Sharing Ltd and DSJ Exchange Pty Ltd, for orchestrating a fraud scheme that used false SEC filings to boost confidence in their…",
+      "publishedAt": "2026-10-29T16:42:37.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Announces Fiscal Year 2027 Examination Priorities",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
+      "excerpt": "The Securities and Exchange Commission today announced the Division of Examinations’ Fiscal Year 2027 examination priorities. The annual report identifies key areas of focus as the Division carries out its mission to promote compliance, prevent fraud,…",
+      "publishedAt": "2026-10-23T14:10:00.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC and AMF Announce Supervisory MOU To Enhance Cooperation for Investment Advisers and Investment Service Providers",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-108-sec-amf-announce-supervisory-mou-enhance-cooperation-investment-advisers-investment-service",
+      "excerpt": "The U.S. Securities and Exchange Commission (SEC) and the French Autorité des Marchés Financiers (AMF) announced that they have entered into a Memorandum of Understanding (MOU) designed to facilitate consultation and information-sharing in the…",
+      "publishedAt": "2026-10-20T13:25:16.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC, FSA Hold Autumn Financial Regulatory Dialogue",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-107-sec-fsa-hold-autumn-financial-regulatory-dialogue",
+      "excerpt": "The U.S. Securities and Exchange Commission (SEC) and the Financial Services Agency of Japan (FSA) convened the Autumn SEC-FSA Financial Regulatory Dialogue in Tokyo on Oct. 19, 2026.The SEC–FSA Dialogue builds upon longstanding efforts between the two…",
+      "publishedAt": "2026-10-20T12:51:00.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Announces Roundtable on Machine-Understandable Data in the Age of Super Intelligence",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-106-sec-announces-roundtable-machine-understandable-data-age-super-intelligence",
+      "excerpt": "The Securities and Exchange Commission announced today that it will host a roundtable on November 9, 2026, to discuss the use of machine-understandable data and Super Intelligence (SI) and related risks and costs.“In the age of SI, high-quality…",
+      "publishedAt": "2026-10-19T17:19:43.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulation Crowdfunding",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-105-sec-small-business-advisory-committee-discuss-ipo-modernization-regulation-crowdfunding",
+      "excerpt": "The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, October 27, 2026, at 10 a.m. to continue discussing IPO modernization and explore potential policy…",
+      "publishedAt": "2026-10-14T14:30:47.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-104-sec-proposes-expanding-securities-eligible-cross-trading-registered-funds",
+      "excerpt": "The Securities and Exchange Commission today proposed amendments to the Investment Company Act “cross-trading rule,” which permits transactions in securities between a registered fund and its affiliates under certain conditions. The proposed amendments…",
+      "publishedAt": "2026-10-09T14:59:00.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Seeks Final Judgment Against Former Western Asset Co-CIO Ken Leech in Cherry Picking Case",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-103-sec-seeks-final-judgment-against-former-western-asset-co-cio-ken-leech-cherry-picking-case",
+      "excerpt": "The Securities and Exchange Commission today moved for entry of a final judgment by consent against Stephen Kenneth Leech II, the former co-chief investment officer of registered investment adviser Western Asset Management Company LLC, whom the SEC…",
+      "publishedAt": "2026-10-06T20:30:24.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC to Host Virtual National Compliance Outreach Seminar for Investment Companies and Investment Advisers",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-102-sec-host-virtual-national-compliance-outreach-seminar-investment-companies-investment-advisers",
+      "excerpt": "The Securities and Exchange Commission’s Compliance Outreach Program announced today that it will host a virtual national seminar for investment companies and investment advisers on November 19, 2026. The purpose of the event is to help chief compliance…",
+      "publishedAt": "2026-10-06T14:37:55.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Coordinates with Global Financial Regulators to Raise Fraud Awareness During World Investor Week",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-101-sec-coordinates-global-financial-regulators-raise-fraud-awareness-during-world-investor-week",
+      "excerpt": "The Securities and Exchange Commission, in coordination with other U.S. and global financial regulators, today issued a joint investor bulletin as part of World Investor Week (WIW). The bulletin encourages investors to be resilient in changing…",
+      "publishedAt": "2026-10-05T12:47:36.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Proposal Would Address How Investment Advisers and Funds Can Custody Crypto Assets Under the Federal Securities Laws",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-100-sec-proposal-would-address-how-investment-advisers-funds-can-custody-crypto-assets-under-federal",
+      "excerpt": "The Securities and Exchange Commission today proposed new rules and amendments to provide a tailored framework for the custody of crypto assets for registered investment advisers and regulated funds, i.e. registered investment companies and business…",
+      "publishedAt": "2026-10-01T16:16:07.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC’s Division of Examinations Announces New Exam Handbook",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-99-secs-division-examinations-announces-new-exam-handbook",
+      "excerpt": "The Securities and Exchange Commission’s Division of Examinations today published its new handbook, “The SEC Exam Handbook: A Practical Guide on Process and Engagement,” which replaces and expands upon the previous examination brochure by providing…",
+      "publishedAt": "2026-10-01T15:03:35.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Charges Meyer Global Management and Its CEO With Defrauding Retail Investors in Private Funds That Held Interests in SpaceX and Other Pre-IPO Securities",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-98-sec-charges-meyer-global-management-its-ceo-defrauding-retail-investors-private-funds-held-interests",
+      "excerpt": "The Securities and Exchange Commission today charged private fund adviser Meyer Global Management LLC (MGM) and its CEO, Owen E.H. Meyer, with defrauding investors and MGM-managed funds in connection with investments in SpaceX and other pre-IPO…",
+      "publishedAt": "2026-09-30T18:30:01.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Charges Two Individuals With Orchestrating Fraud Scheme That Targeted Veterans",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-97-sec-charges-two-individuals-orchestrating-fraud-scheme-targeted-veterans",
+      "excerpt": "The Securities and Exchange Commission today announced charges against Christopher Kenji Dinelli and Jacob David “Kobe” Frankel for allegedly orchestrating a fraud scheme that raised more than $8.7 million from 35 investors through their fund, Beyond…",
+      "publishedAt": "2026-09-30T16:42:15.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Proposes Amendments to Expand Responsible Retailization of Private Markets",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-96-sec-proposes-amendments-expand-responsible-retailization-private-markets",
+      "excerpt": "The Securities and Exchange Commission today voted to propose rule amendments that would facilitate capital formation in the public and private markets by expanding retail investor choice and promoting innovation in regulated fund structures while…",
+      "publishedAt": "2026-09-30T15:45:00.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Charges Multiple Entities in Fraud Schemes Totaling at Least $15 Million That Used WhatsApp and Other Platforms to Lure Investors",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-95-sec-charges-multiple-entities-fraud-schemes-totaling-least-15-million-used-whatsapp-other-platforms",
+      "excerpt": "The Securities and Exchange Commission today charged multiple entities that are likely operated by individuals located overseas for defrauding hundreds of retail investors, including many in the U.S., through so-called investment confidence scams where…",
+      "publishedAt": "2026-09-29T13:55:53.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "sec-press",
+      "title": "SEC Charges Registered Investment Adviser Zoe Financial for Failure to Disclose Conflict of Interest",
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-94-sec-charges-registered-investment-adviser-zoe-financial-failure-disclose-conflict-interest",
+      "excerpt": "The Securities and Exchange Commission today announced settled charges against New York-based investment adviser Zoe Financial Inc. for failing to fully and fairly disclose material facts concerning conflicts of interest to its clients and prospective…",
+      "publishedAt": "2026-09-28T17:46:30.000Z",
+      "category": "finance",
+      "source": "美国证监会 SEC（官方）"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "Meeting of 28-29 October 2026",
+      "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html",
+      "excerpt": "",
+      "publishedAt": "2026-11-26T12:30:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）",
+      "summary": "欧洲央行公布2026年10月28日至29日货币政策会议纪要。原文未提供摘要内容，具体讨论细节以官方文件为准。"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html",
+      "excerpt": "",
+      "publishedAt": "2026-11-25T17:30:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）",
+      "summary": "欧洲央行与瑞典央行（Sveriges Riksbank）就瑞典加入T2支付系统达成协议。原文未提供摘要内容，具体条款以官方新闻稿为准。"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "Card payments edge past cash in shops; euro area consumers want both",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html",
+      "excerpt": "",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
+      "excerpt": "",
+      "publishedAt": "2026-11-24T11:00:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "Philip R. Lane: Climate change and monetary policy",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+      "excerpt": "",
+      "publishedAt": "2026-11-23T14:30:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html",
+      "excerpt": "",
+      "publishedAt": "2026-11-23T10:00:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "Christine Lagarde: Acting in time",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
+      "excerpt": "",
+      "publishedAt": "2026-11-20T08:30:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "Boris Vujčić: Financial Stability Review - November 2026",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf",
+      "excerpt": "",
+      "publishedAt": "2026-11-18T09:00:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
+      "excerpt": "",
+      "publishedAt": "2026-11-18T09:00:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf",
+      "excerpt": "",
+      "publishedAt": "2026-11-17T18:30:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "Frank Elderson: Smart supervision for small banks",
+      "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261116_1~11dd7f62af.en.html",
+      "excerpt": "",
+      "publishedAt": "2026-11-16T13:00:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "Boris Vujčić: Risks and resilience in the euro area financial system",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
+      "excerpt": "",
+      "publishedAt": "2026-11-16T08:30:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "Isabel Schnabel: Made in Europe",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html",
+      "excerpt": "",
+      "publishedAt": "2026-11-13T07:20:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
+      "excerpt": "",
+      "publishedAt": "2026-11-10T16:45:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）"
+    },
+    {
+      "sourceId": "ecb-press",
+      "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html",
+      "excerpt": "",
+      "publishedAt": "2026-11-10T14:00:00.000Z",
+      "category": "finance",
+      "source": "欧洲央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Payments systems Memorandum of Understanding",
+      "url": "https://www.bankofengland.co.uk/news/2024/march/payment-systems-memorandum-of-understanding",
+      "excerpt": "Bank of England, PRA, FCA and PSR review Memorandum of Understanding in relation to payment systems in the UK",
+      "publishedAt": "2026-11-26T15:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）",
+      "summary": "英国央行、审慎监管局（PRA）、金融行为监管局（FCA）与支付系统监管局（PSR）联合审议有关英国支付系统的谅解备忘录。"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Statistical Notice 2026/09 - Update to the classification of accounts guide",
+      "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-09",
+      "excerpt": "Statistical Notices update the definitions and guidance contained in the Banking Statistics Yellow Folder",
+      "publishedAt": "2026-11-26T12:33:57.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）",
+      "summary": "英国央行发布2026/09号统计公告，更新《账户分类指南》，即银行业统计黄皮书中关于定义与指引的内容。"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Financial Policy Committee Record – November 2026",
+      "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/november-2026",
+      "excerpt": "Our Financial Policy Committee (FPC) meets to identify risks to financial stability and agree policy actions aimed at safeguarding the resilience of the UK financial system.",
+      "publishedAt": "2026-11-26T10:30:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）",
+      "summary": "英国央行公布金融政策委员会（FPC）2026年11月会议记录，委员会在会上识别金融稳定风险并商定维护英国金融体系韧性的政策行动。"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Regulators implement growth-friendly securitisation reforms",
+      "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-implement-growth-friendly-securitisation-reforms",
+      "excerpt": "The Prudential Regulation Authority and Financial Conduct Authority have today published revised rules designed to support securitisation’s contribution to economic growth.",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Daniel E. Pinto appointed to the Bank of England’s Financial Policy Committee",
+      "url": "https://www.bankofengland.co.uk/news/2026/november/daniel-pinto-appointment-fpc",
+      "excerpt": "Daniel E. Pinto has been appointed as an external member of the Financial Policy Committee.",
+      "publishedAt": "2026-11-24T16:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "General insurance stress test highlights value of rehearsing crisis response and recovery",
+      "url": "https://www.bankofengland.co.uk/news/2026/november/general-insurance-stress-test-highlights-value-of-rehearsing-crisis-response-and-recovery",
+      "excerpt": "The Prudential Regulation Authority (PRA) has today published the results of its 2026 Dynamic General Insurance Stress Test (DyGIST)",
+      "publishedAt": "2026-11-23T10:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Cyber resilience guidance consultation and AI and quantum effective practices",
+      "url": "https://www.bankofengland.co.uk/news/2026/november/cyber-resilience-guidance-consultation-and-ai-and-quantum-effective-practices",
+      "excerpt": "UK’s financial regulators are proposing a new guidance to help financial services firms prepare for and recover from cyber incidents as threats grow.",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Minutes of the Market Participants Group meeting – 18 November 2026",
+      "url": "https://www.bankofengland.co.uk/minutes/2026/november/market-participants-group-meeting-18-november-2026",
+      "excerpt": "The Market Participants Group (MPG) is a senior-level forum for financial market participants to share their views on relevant themes and narratives in financial markets with members of the Bank of England’s Monetary Policy Committee.",
+      "publishedAt": "2026-11-19T07:30:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "The Bank of England, the Monetary Authority of Singapore, and the Bank of Thailand: Project Meridian FX APAC",
+      "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release",
+      "excerpt": "Joint media release",
+      "publishedAt": "2026-11-13T09:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - November 2026",
+      "url": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-november-2026",
+      "excerpt": "Exchange of letters between the Governor and the Chancellor",
+      "publishedAt": "2026-11-10T12:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
+      "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+      "excerpt": "The Bank of England’s Monetary Policy Committee is responsible for making decisions about Bank Rate.",
+      "publishedAt": "2026-11-05T12:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Summary of the RTGS CHAPS Industry Forum - 13 October 2026",
+      "url": "https://www.bankofengland.co.uk/minutes/2026/october/rtgs-chaps-industry-forum-13-october-2026",
+      "excerpt": "The second meeting of the RTGS CHAPS Industry Forum",
+      "publishedAt": "2026-11-04T14:51:45.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Regulators explore credit union reforms to support growth, innovation and better outcomes for members",
+      "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-explore-credit-union-reforms-to-support-growth-innovation-and-better-outcomes-for-members",
+      "excerpt": "Credit unions could benefit from several ideas put forward today by the Prudential Regulation Authority and Financial Conduct Authority aimed at helping the sector grow, innovate and meet the changing needs of their members.",
+      "publishedAt": "2026-11-03T10:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Minutes of the Meeting of the Court of Directors held on 17 September 2026",
+      "url": "https://www.bankofengland.co.uk/minutes/2026/september/court-minutes-17-september-2026",
+      "excerpt": "The Bank's Court of Directors acts as a unitary board, setting the organisation's strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.",
+      "publishedAt": "2026-10-29T14:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Bank of England sets out approach to tokenised collateral in central clearing",
+      "url": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing",
+      "excerpt": "The Bank of England has today launched a consultation supporting central counterparties (CCPs) acceptance of tokenised forms of eligible collateral.",
+      "publishedAt": "2026-10-29T10:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Remit for the Monetary Policy Committee - October 2026",
+      "url": "https://www.bankofengland.co.uk/letter/2026/mpc-remit-2026",
+      "excerpt": "Letter from the Chancellor to the Governor",
+      "publishedAt": "2026-10-28T14:16:49.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
+      "url": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime",
+      "excerpt": "The number of financial services roles required to face enhanced checks from regulators will fall significantly under proposals that will support growth.",
+      "publishedAt": "2026-10-22T20:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Minutes of the Securities Lending Committee meeting – September 2026",
+      "url": "https://www.bankofengland.co.uk/minutes/2026/september/securities-lending-committee-meeting-september-2026",
+      "excerpt": "The Securities Lending Committee is a forum for market participants and authorities to discuss the UK securities lending market.",
+      "publishedAt": "2026-10-22T15:35:53.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Banknote imagery advisory group minutes – 15 July 2026",
+      "url": "https://www.bankofengland.co.uk/minutes/2026/july/banknote-advisory-minutes-15-july",
+      "excerpt": "Meeting held 15 July 2026",
+      "publishedAt": "2026-10-16T11:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "David Roberts CV and questionnaire for the Treasury Select Committee",
+      "url": "https://www.bankofengland.co.uk/news/2026/october/david-roberts-tsc-reappointment",
+      "excerpt": "Published for the Treasury Select Committee",
+      "publishedAt": "2026-10-15T09:52:41.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Minutes of the SONIA Stakeholder Advisory Group - 25 September 2026",
+      "url": "https://www.bankofengland.co.uk/minutes/2026/september/sonia-stakeholder-advisory-group-25-september-2026",
+      "excerpt": "The SONIA Stakeholder Advisory Group supports the Bank’s administration of SONIA by providing advice and technical input to the Bank and the SONIA Oversight Committee",
+      "publishedAt": "2026-10-15T08:27:59.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Minutes of the Money Market Committee meeting – September 2026",
+      "url": "https://www.bankofengland.co.uk/minutes/2026/september/money-markets-committee-minutes-september-2026",
+      "excerpt": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+      "publishedAt": "2026-10-13T15:04:27.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "CMORG holds sector-wide cloud outage simulation exercise",
+      "url": "https://www.bankofengland.co.uk/news/2026/october/cmorg-holds-sector-wide-cloud-outage-simulation-exercise",
+      "excerpt": "The Cross-Market Operational Resilience Group (CMORG) yesterday (8 October 2026) completed its biennial simulation exercise, known as SIMEX26, focused this year on a global cloud services disruption.",
+      "publishedAt": "2026-10-09T09:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Bank of England announces the four animals that will feature on our next series of banknotes",
+      "url": "https://www.bankofengland.co.uk/news/2026/october/boe-announces-the-four-animals-that-will-feature-on-next-series-of-banknotes",
+      "excerpt": "The Atlantic puffin, barn owl, buff-tailed bumblebee and European hedgehog will represent UK wildlife and feature as the central images on our next series of banknotes.",
+      "publishedAt": "2026-10-07T23:01:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Minutes of the London FXJSC Legal Sub Committee Meeting – 16 June 2026",
+      "url": "https://www.bankofengland.co.uk/minutes/2026/june/fxjsc-legal-sub-committee-meeting-16-june-26",
+      "excerpt": "The Bank of England provides the Secretariat to the London Foreign Exchange Joint Standing Committee (FXJSC) Legal Sub-Committee. The FXJSC is made up of market participants, infrastructure providers and the UK financial regulators.",
+      "publishedAt": "2026-10-07T13:36:25.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Minutes of the London FXJSC Operations Sub-Committee Meeting – 16 June 2026",
+      "url": "https://www.bankofengland.co.uk/minutes/2026/june/fxjsc-operations-sub-committee-meeting-16-june-2026",
+      "excerpt": "The Bank of England chairs the London Foreign Exchange Joint Standing Committee (FXJSC) Operations and Legal Sub-Committees. The FXJSC is made up of market participants, infrastructure providers and the UK financial regulators.",
+      "publishedAt": "2026-10-07T09:49:25.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Minutes of the London FXJSC Main Committee Meeting – 24 June 2026",
+      "url": "https://www.bankofengland.co.uk/minutes/2026/june/fxjsc-main-committee-meeting-24-june-2026",
+      "excerpt": "The Bank of England chairs the London Foreign Exchange Joint Standing Committee (FXJSC), which is a forum for discussion of the wholesale foreign exchange market. The FXJSC is made up of market participants, infrastructure providers and the UK financial regulators.",
+      "publishedAt": "2026-10-07T09:08:40.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Regulatory thresholds set to shift to automatic increases",
+      "url": "https://www.bankofengland.co.uk/news/2026/october/regulatory-thresholds-set-to-shift-to-automatic-increases",
+      "excerpt": "Proportionality is set to be improved for firms as over 100 regulatory thresholds could be automatically increased periodically.",
+      "publishedAt": "2026-10-07T09:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Minutes of the UK Money Markets Code Sub-Committee – September 2026",
+      "url": "https://www.bankofengland.co.uk/minutes/2026/september/uk-money-markets-committee-minutes-september-2026",
+      "excerpt": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+      "publishedAt": "2026-10-06T13:07:03.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "boe-news",
+      "title": "Appointment of members of the Enforcement Decision Making Committee (EDMC)",
+      "url": "https://www.bankofengland.co.uk/news/2026/october/appointment-of-members-of-the-edmc",
+      "excerpt": "Following an external recruitment process, the Bank of England has appointed Carlos Conceicao and Alexander Justham as members of its Enforcement Decision Making Committee, with effect from September 2026.",
+      "publishedAt": "2026-10-02T08:00:00.000Z",
+      "category": "finance",
+      "source": "英国央行（官方）"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "Thirteen dead as mine disaster highlights illegal hunt for gold",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Indonesian authorities say another 13 are missing in the illegal gold mine, which flooded on Monday.",
+      "publishedAt": "2026-11-26T07:31:24.000Z",
+      "category": "politics",
+      "source": "BBC World",
+      "summary": "印度尼西亚有关部门表示，一座非法金矿周一遭水淹后已致13人死亡，另有13人失踪。该事故凸显当地非法采金活动的风险与规模。"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "13 Dead and 13 Thought Trapped in Indonesian Mine After Heavy Rain",
+      "url": "https://www.nytimes.com/2026/11/25/world/asia/indonesia-miners-trapped.html",
+      "excerpt": "Dozens of workers had been stuck inside the illegal gold mine since Monday, after its narrow shafts flooded. Rescuers said they were losing hope that those still inside would be found alive.",
+      "publishedAt": "2026-11-26T14:52:43.000Z",
+      "category": "politics",
+      "source": "NYT World",
+      "summary": "印度尼西亚一处非法金矿因暴雨导致狭窄矿井自周一起被淹，数十名工人被困。目前已确认13人死亡，另有13人据信仍被困井下，救援人员表示对仍生还者已不抱太大希望。"
+    },
+    {
+      "sourceId": "dw-chinese",
+      "title": "“马六甲数字海峡”：马来西亚为中国人工智能企业提供数据中心",
+      "url": "https://www.dw.com/zh/马六甲数字海峡-：马来西亚为中国人工智能企业提供数据中心/a-80058663?maca=chi-rss-chi-all-1127-rdf",
+      "excerpt": "由于美国的限制措施，中国很难获得功能强大的人工智能芯片。因此，中国公司主要使用东南亚的计算能力用于自身的AI代理。但这一模式如今受到冲击。",
+      "publishedAt": "2026-11-26T10:37:00.000Z",
+      "category": "politics",
+      "source": "DW 中文",
+      "summary": "由于美国限制措施，中国难以获得高端人工智能芯片，中国AI企业主要转而使用东南亚的算力，马来西亚数据中心因此受益，形成所谓「马六甲数字海峡」；但这一模式目前正受到冲击。"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "Inside Liberland, the crypto ‘country’ few have heard of",
+      "url": "https://www.aljazeera.com/news/2026/11/26/inside-liberland-the-crypto-country-few-have-heard-of?traffic_source=rss",
+      "excerpt": "Al Jazeera's Antoine Allen reports on a group of people trying to build a tax-free nation.",
+      "publishedAt": "2026-11-26T14:02:02.000Z",
+      "category": "politics",
+      "source": "Al Jazeera",
+      "summary": "半岛电视台记者安托万·艾伦报道「利伯兰」（Liberland）——一个鲜为人知、由一群人试图建立的免税「国家」实体，并涉及加密货币元素。报道聚焦该群体的建国主张与运作方式。"
+    }
+  ]
+}
